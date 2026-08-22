@@ -1,0 +1,464 @@
+\documentclass[12pt,twocolumn]{article}
+
+%------------------------------------------------
+% PACOTES
+%------------------------------------------------
+
+\usepackage[a4paper,margin=2cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{abstract}
+\usepackage{lettrine}
+\usepackage{enumitem}
+\usepackage{lipsum}
+\usepackage{authblk}
+
+\setlength{\columnsep}{0.8cm}
+\setlength{\parindent}{1em}
+\setlength{\parskip}{0pt}
+
+%------------------------------------------------
+% CABEÇALHO
+%------------------------------------------------
+
+\fancypagestyle{firstpage}{
+    \fancyhf{}
+    \fancyhead[C]{\small Notas de Aulas $\bullet$ Setembro de 2022 $\bullet$ Graduação em Química}
+    \renewcommand{\headrulewidth}{0.4pt}
+    \fancyfoot[R]{\thepage}
+}
+
+\fancypagestyle{plain}{
+    \fancyhf{}
+    \renewcommand{\headrulewidth}{0pt}
+    \fancyfoot[R]{\thepage}
+}
+
+\pagestyle{plain}
+
+%------------------------------------------------
+% SEÇÕES
+%------------------------------------------------
+
+\titleformat{\section}
+{\centering\Large\scshape}
+{\Roman{section}.}
+{0.8em}
+{}
+
+\titleformat{\subsection}
+{\large\scshape}
+{\thesection.\arabic{subsection}}
+{0.8em}
+{}
+
+%------------------------------------------------
+% RESUMO
+%------------------------------------------------
+
+\renewcommand{\abstractnamefont}{\normalfont\bfseries}
+\renewcommand{\abstracttextfont}{\small}
+
+%------------------------------------------------
+% DOCUMENTO
+%------------------------------------------------
+
+\begin{document}
+
+\thispagestyle{firstpage}
+
+\twocolumn[
+\begin{@twocolumnfalse}
+
+\vspace{0.5cm}
+
+\begin{center}
+
+{\fontsize{24}{28}\selectfont\scshape\bfseries Estrutura da Matéria}
+
+\vspace{0.8cm}
+
+{\Large\scshape Thiago S. Lima}
+
+\vspace{0.35cm}
+
+Universidade Federal de Goiás
+
+thiagolima2@discente.ufg.br
+
+\end{center}
+
+\vspace{0.8cm}
+
+\begin{abstract}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut purus elit, vestibulum ut, placerat ac, adipiscing vitae, felis. Curabitur dictum gravida mauris. Nam arcu libero, nonummy eget, consectetur id, vulputate a, magna. Donec vehicula augue eu neque.
+
+\end{abstract}
+
+\vspace{0.6cm}
+
+\end{@twocolumnfalse}
+]
+
+%------------------------------------------------
+
+\section{Estrutura Atômica}
+
+\subsection{Mitologia, Cosmogonia e o Início da Filosofia Natural}
+
+\lettrine[lines=3]{A} transição do pensamento mítico para a filosofia natural e o papel tecnológico do fogo são fundamentais para entender a origem das civilizações e a investigação racional da natureza.
+
+\subsubsection{Pensamento Mítico e Cosmogonias Antigas}
+
+\begin{itemize}
+
+\item \textbf{Explicações Inaugurais:} As cosmogonias antigas buscavam explicar a ordem e a origem do mundo natural através de divindades e mitos.
+
+\item \textbf{Exemplo Mitológico:} Uma lenda afro-brasileira narra que a fúria de Olorum contra Iemanjá resultou na inundação da Terra; a intervenção de Ogum ao cavar o solo atingiu o reino de Obaluaiê (fogo subterrâneo), gerando terremotos que formavam continenetes e montanhas. Nesse contexto, deuses como Xangô (fogo) e Oxalá (ar) personificavam fenômenos naturais. 
+
+\end{itemize}
+
+\subsubsection{Trasição para a Investigação Racional}
+
+\begin{itemize}
+
+\item \textbf{O Surgimento da Ciência:} Com o desenvolvimento das cidades, o homem sentiu-se mais protegido e a mitologia tornou-se insuficiente para responder as novas questões filosóficas.
+
+\item \textbf{Filósofos Pré-Socráticos:} O conceito de "cosmos" surgiu na Grécia Antiga, buscando compreender a origem (physis) de forma estruturada. Nesse contexto, Tales de Mileto propôs a água como princípio primordial, Anaximandro sugeriu o \textit{apeiron} (o indeterminado), enquanto Heráclito defendia a constante mudança e o \textit{devir}, em constraste com Parmênides, para quem o "Ser" era imutável e eterno.
+
+\item \textbf{Plurarismo e Elementos:} Empédocles identificou quatro "elementos" imortais - terra, fogo, água e ar - movidos pelas forças opostas do Amor (Amizade) e do Ódio.
+
+\end{itemize}
+
+\subsubsection{Ritos Dionísicos e a Filosofia de Empédocles}
+
+\begin{itemize}
+
+\item \textbf{Máscaras e Transfiguração:} A filosofia de Empédocles pode ser lida sob uma perspectiva dionísica, onde os elementos não são "tijolos" estáticos, mas "máscaras" ou aparências transitórias da natureza
+
+\item \textbf{Simpósio e Teatro:} Ritos como o simpósio (embriaguez e integração com o todo) e o teatro (personificação do deus) refletem a visão de mundo de transmutação contínua presente nos versos de Empédocles.
+
+\item \textbf{Mistura e Crase:} Termos como \textit{míxis} (mistura/ato sexual) e \textit{krásis} (crase/têmpera do vinho) descrevem os processos vitais de geração e transformação da matéria, ligando a filosofia aos rituais de Dionísio e Afrodite.
+
+\end{itemize}
+
+\subsubsection{O Fogo como Ferramenta de Controle do Tempo}
+
+\begin{itemize}
+
+\item \textbf{Revolução Agrícola e Metais:} O uso prático do fogo foi o motor da Revolução Agrícola e da Idade dos Metais, permitindo o domínio tecnológico sobre os materiais.
+
+\item \textbf{Era das Explorações:} Na expansão marítima, o fogo manifestava-se em armas "que vomitavam estrondo e fumaça", assombrando povos nativos. Os progressos no aquecimento e iluminação no norte da Europa também impulsionavam o deslocamento da atividade econômica e intelectual no século XVII.
+
+\item \textbf{Controle do Tempo:} O fogo foi usado para medição prática através de relógios de vela, de corda e despertadores de fogo.
+
+\end{itemize}
+
+%------------------------------------------------
+
+
+
+
+\subsection{Filosofia Pré-Socrática e a Busca pela \textit{Arché}}
+
+\lettrine[lines=3]{A}{Filosofia Pré-Socrática} representa a transição do pensamento mítico para a investigação racional da natureza através da busca pela \textit{arché} (princípio primordial).
+
+\subsubsection{A Busca pela Arché e o Monismo Material}
+
+\begin{itemize}
+
+    \item \textbf{Tales de Mileto:} Considerado o fundador da filosofia cosmológica, identificou a água como a substância básica de todas as coisas, baseando-se em suas propriedades físicas essenciais para a vida.
+
+    \item \textbf{Anaximandro:} Foi o primeiro a utilizar o termo \textit{arché}. Discordava de Tales e propôs o \textit{apeiron} (o indeterminado) - uma substância primária, imaterial e infinita - como origem de tudo.
+
+    \item \textbf{Anaxímenes:} Identificou o ar como a essência primordial que sustenta o cosmo.
+    
+\end{itemize}
+
+\subsubsection{Mobilismo \textit{vs.} Ontologia do Ser}
+
+\begin{itemize}
+    \item \textbf{Heráclito de Éfeso:} Defendia o Mobilismo, onde a essência da natureza é a constante mudança e transformação (\textit{devir}). Sua famosa analogia afirma que não se pode entrar duas vezes no mesmo rio, pois as águas e o homem mudam.
+    \item \textbf{Parmênides de Eleia:} Propôs a ontologia do Ser, defendendo que o "Ser" é único, imutável e eterno. Para ele, a mudança e o movimento são ilusões dos sentidos; se o Ser se transformasse, ele deixaria de ser, o que seria logicamente impossível.
+    \item \textbf{Zenão de Eleia:} Criou paradoxos lógicos (como Aquiles e a Tartaruga) para provar logicamente que o movimento a multiplicidade são enganos sensoriais, reforçando a imobilidade do Ser.
+\end{itemize}
+
+\subsubsection{A Matematização do Cosmo}
+
+\begin{itemize}
+    \item \textbf{Pitágoras de Samos:} Fundou uma sociedade mística onde a Matemática era a via de salvação. Acreditava que os números eram a alma de tudo e que o universo era formado por unidades indivisíveis.
+    \item \textbf{Misticismo Numérico:} Para os pitagóricos, qualidades como quente e frio eram apenas manifestações das combinações vibratórias dos números.
+    \item \textbf{Geometrização:} Após a descoberta dos números irracionais, a escola pitagórica passou a priorizar os aspectos geométricos para fundamentar a lógica dos fenômenos naturais.
+\end{itemize}
+
+\subsubsection{Pimeira Tentativa Racional Estruturada}
+
+Este período marca a primeira tentativa estruturada de explicar a multiplicidade e a transformação da matéria a partir de um princípio único e racional, abandonando as narrativas místicas. Os filósofos utilizavam analogias físicas elementares (águas, ar, fogo) e uma geometrização incipiente para tentar dar ordem lógica ao caos aparente da natureza.
+
+
+\subsection{O Pluralismo e a Teoria dos Quatro Elementos de Empédocles}
+
+\lettrine[lines=3]{O} pluralismo rompe com a ideia de um princípio único, propondo que a natureza é composta por múltiplos elementos eternos movidos por forças cósmicas.
+
+\subsubsection{A Pluralidade da Matéria e os Processos de Transformação}
+
+\begin{itemize}
+    \item \textbf{Empédocles de Agrigento:} Propôs que a matéria é formada por quatro "elementos" eternos e imortais: terra, água, ar e fogo.
+    \item \textbf{\textit{Míxis} e \textit{Krásis}:} Ele negava a existência do nascimento e da morte literais; para ele, o que percebemos como "desabrochar" da natureza são apenas processos de mistura (\textit{míxis}) e crase (\textit{krásis}) desses elementos. Esses termos também remetem a ritos vitais, como o ato sexual e o tempero do vinho.
+\end{itemize}
+
+\subsubsection{Forças Cósmicas e o Motor Inteligente}
+\begin{itemize}
+    \item \textbf{Amor e Ódio:} O movimentos dos elementos é impulsionado por duas forças motoras opostas: o Amor (Amizade), que atua como força de atração e união, e o Ódio (Discórdia/Repulsão), que separa os elementos.
+    \item \textbf{Anaxágoras de Clazômenas:} Defendia que, no início, existia um magma primordial onde tudo estava misturado. Este magma era agitado por um motor inteligente ou força cósmica (\textit{Nous}), que provocava um turbilhão separando o denso do rarefeito e o quente do frio.
+\end{itemize}
+\subsubsection{Alegorias Botânicas e Cromáticas}
+\begin{itemize}
+    \item \textbf{A Paleta do Pintor:} Empédocles utilizou a analogia das tintas para explicar a multiplicidade do mundo; assim como pintores misturam poucas cores para criar árvores, homens e deuses, a natureza combina os quatro elementos em diferentes proporções para gerar todas as formas.
+    \item \textbf{Raízes e Máscaras:} Outra alegoria é a botânica, comparando os elementos às raízes de uma vinha que nutrem a superfície em transfiguração. Nessa visão, as formas da natureza são como máscaras dionísicas transitórias que escondem a mistura contínua dos elementos subjacentes.
+\end{itemize}
+\subsection{O Atomismo Grego Clássico}
+
+\lettrine[lines=3]{O} Atomismo Grego Clássico estabeleceu as bases do materialismo ao propor que o universo é composto estritamente por partículas indivisíveis e o espaço onde elas se movem.
+
+\subsubsection{Átomos e o Vazio}
+\begin{itemize}
+    \item \textbf{Constituintes Reais:} A matéria é fomrmada pelo pleno (o átomo), que é sólido e indivisível ("o que é"), e pelo Vazio, o espaço oco ou não-ente ("o que não é")
+    \item \textbf{Realidade do Vazio:} Ao contrário dos eleatas, os atomistas defendiam que o Vazio é real, pois sem ele o movimento a compressão dos corpos seriam impossíveis.
+\end{itemize}
+\subsubsection{Principais Filósofos}
+\begin{itemize}
+    \item \textbf{Fundadores:} Leucipo de Abdera (o formulador original) e seu discípulo Demócrito de Abdera
+    \item \textbf{Posteridade:} A teoria foi retomada por Epicuro de Samos, que adicionou o peso como propriedade atômica, e pelo poeta romano Lucrécio, que a descreveu no poema \textit{De Rerum Natura}.
+\end{itemize}
+\subsubsection{Mecânica das Mudanças}
+\begin{itemize}
+    \item \textbf{Rearranjos Cinéticos:} As mudanças que percebemos na natureza não são "nascimentos", mas meros rearranjos de partículas eternas que se chocam e se entrelaçam no vazio.
+    \item \textbf{Diferenças Atômicas:} Os átomos são qualitativamente iguais, diferindo apenasem três aspectos: forma (figura), arranjo (ordem) e posição.
+\end{itemize}
+\subsubsection{Analogia Alfabética Pedagógica}
+\begin{itemize}
+    \item \textbf{Letras e Átomos:} Demócrito e Aristóteles utilizaram a analogia do alfabeto para explicar a multiplicidade: assim como as mesmas letras podem formar uma "tragédia" ou uma "comédia", os mesmos átomos, em diferentes ordens e posições, formam todas as coisas do mundo.
+\end{itemize}
+\subsubsection{Oposição à Escola Eleática e Materialismo}
+\begin{itemize}
+    \item \textbf{Ruptura com Parmênides:} O atomismo opõe-se radicalmente ao imobilismo de Parmênides ao afirmar a pluralidade e o movimento.
+    \item \textbf{Negação da Teleologia:} Funda um materialismo estrito onde nada ocorre por acaso, mas tudo por razão e necessidade mecânica, negando qualquer propósito divido (teleologia) ou criação a partir do nada.
+\end{itemize}
+\subsection{A Crítica Aristotélica, o Hilemorfismo e a Tradição Clássica}
+
+\lettrine[lines=3]{A} filosofia de Aristóteles consolidou umma visão de mundo teleológica e organziada que dominou o pensamento ocidental por séculos, opondo-se ao materialismo dos atomistas.
+
+\subsubsection{Hilemorfismo e as Quatro Causas}
+\begin{itemize}
+    \item \textbf{Hilemorfismo:} Aristóteles propôs que todos os seres físicos são uma união incindível entre matéria (\textit{hylé}) e forma. A matéria é o substrato, enquanto a forma organiza essa matéria em elementos perceptíveis.
+    \item \textbf{Ato e Potência:} Para explicar a transformação, ele introduziu os conceitos de potência (as possibilidades latentes da matéria) e ato (a realização dessas possibilidades).
+    \item \textbf{Teoria das Quatro Causas:} Aristóteles sistematizou a investigação da natureza através de quatro causas: Material (do que é feito), Formal (o modelo ou essência), Eficiente (o agente que produz a mudança) e Final (o propósito ou objetivo).
+\end{itemize}
+\subsubsection{Doutrina dos Elementos e a Quinta-essência}
+\begin{itemize}
+    \item \textbf{Quatro Elementos e Qualidades:} Adotou os elementos de Empédocles associando-os a pares de qualidades fudamentais: fogo (quente e seco), ar (quente e úmido), água (fria e úmida) e terra (fria e seca).
+    \item \textbf{Quinta-essência (Éter):} Postulou o éter como um quinto elemento perfeito e incorruptível, constituinte exclusivo dos corpos celestes no mundo supralunar.
+    \item \textbf{Movimentos Naturais:} Definia que corpos leves (fogo e ar) tendem para cima, corpos pesado (terra e água) para baixo, e os astros realizam os movimentos circulares.
+\end{itemize}
+\subsubsection{Crítica ao Atomismo e Rejeição do Vazio}
+\begin{itemize}
+    \item \textbf{Negação do Vácuo:} Aristóteles rejeitava a existência do vácuo, argumentando que o movimento exigia um meio material e que o espaço é sempre pleno.
+    \item \textbf{Crítica dos Atomistas:} Considerava o atomismo de Leucipo e Demócrito rudimentar por ser estritamente materialista, sendo incapaz de explicar a complexidade dos seres vivos e as transformações qualitativas da forma.
+\end{itemize}
+\subsubsection{Tradição Clássica e Preservação do Conhecimento}
+\begin{itemize}
+    \item \textbf{Domínio Pragmático:} A filosofia aristotélica tornou-se a base das universidades e foi integrada aos dogmas cristãos na Idade Média, tornando-se uma autoridade hegemônica.
+    \item \textbf{Lógica e Biologia:} Aristóteles fundou a Lógica através do estudo dos silogismos e foi o precursos da biologia ao classificar seres animados e inanimados em uma taxonomia sistemática.
+    \item \textbf{Escola de Alexandria:} O conhecimento clássico avançou no período helenístico com figuras como Euclides e Arquimedes na geometria, e posteriormente Herão de Alexandria no Império Romano.
+\end{itemize}
+\subsection{Alquimia e as Teorias dos Princípios Materiais}
+
+\lettrine[lines=3]{A} Alquimia Medieval e a transição para a Iatroquímica Renascentista representam um período em que a investigação da matéria uniu filosofia, misticismo e práticas laboratoriais experimentais.
+
+\subsubsection{Concepções Experimentais e Princípios Abstratos}
+\begin{itemize}
+    \item \textbf{A Alquimia como Ciência Original:} Os povos árabes desenvolveram um corpo de conhecimento original que articulava filosofia e saberes manipulativos para dominar os fenômenos naturais e a transformação da matéria.
+    \item \textbf{Técnicas de Laboratório:} A transmutação e a purificação dos metais eram buscadas através de técnicas rigorosas de separação e purificação física.
+\end{itemize}
+\subsubsection{Pensadores Fundamentais}
+\begin{itemize}
+    \item \textbf{Jabir ibn Hayyan (séc. IX):} Importante alquimista árabe, considerado o formulador da teoria dualista dos metais.
+    \item \textbf{Alberto Magno e Roger Bacon:} No Ocidente, foram responsáveis por adaptar e ressignificar os saberes árabes e a filosofia clássica (especialmente Aristóteles) aos dogmas cristãos, criando uma nova filosofia natural.
+    \item \textbf{Paracelso (séc. XVI):} Adicionou o terceiro prinípio espagírico, o Sal, à teoria alquímica.
+\end{itemize}
+\subsubsection{A Teoria dos Três Princípios (Tria Prima)}
+\begin{itemize}
+    \item \textbf{Dualismo Árabe:} Jabir ibn Hayyan propôs que todos os metais eram formados por dois princípios abstratos: o enxofre (essência masculina, responsável pela combustibilidade) e o mercúrio (essência feminina, responsável pela metalicidade).
+    \item \textbf{O Sal Renascentista:} Paracelso introduziu o Sal, associado à solubilidade, à estabilidade e a resistência dos corpos.
+    \item \textbf{Natureza Metafísica:} Esses princípios eram abstratos e metafísicos, não devendo ser confundidos com as substâncias reais (enxofre e mercúrio químicos) conhecidas hoje.
+\end{itemize}
+\subsubsection{Transmutação e o Ouro Perfeito}
+\begin{itemize}
+    \item \textbf{A Busca pela Perfeição:} A crença na transmutação baseava-se na ideia de que os metais eram "corruptíveis" e poderiam ser transformados no ouro - o metal perfeito - se as proporções de seus princípios internos fossem alteradas.
+    \item \textbf{Harmonia Interna:} As propriedades físicas dos metais não eram explicadas por estruturas atômicas, mas pelas proporções harmônicas e pela pureza de seus constituintes internos ocultos.
+\end{itemize}
+\subsubsection{Transição Epistemológica: Da Mística à Iatroquímica}
+\begin{itemize}
+    \item \textbf{Iatroquímica:} A partir do Renascimento, o foco da alquimia começou a se deslocar do misticismo e da busca pelo outro para aplicações práticas na medicina e farmácia, o que caracterizava a iatroquímica.
+    \item \textbf{Surgimento da Química:} Esse processo de transição, focado em operações laboratoriais e na análise dos corpos, preparou o terreno para que a química surgisse como uma ciência independente nos séculos posteriores.
+\end{itemize}
+\subsection{A Revolução Científica e a Retomada do Corpuscularismo}
+
+\lettrine[lines=3]{A} Revolução Científica e a retomada do corpuscularismo no século XVII marcaram a transição definitiva da escolástica aristotélica para a ciência moderna, fundamentada na matemática e na experimentação.
+
+\subsubsection{Afirmação do Racionalismo Mecanicista e Corpuscularismo}
+\begin{itemize}
+    \item \textbf{René Descartes:} Concebeu a \textit{res extensa}, situando os corpos em um espaço geometrizado e homogêneo. Defendia que a matéria é infinitamente divisível e que o universo está pleno, movendo-se atra´ves de vórtices cósmicos (turbilhões) que transmitem movimento por contato.
+    \item \textbf{Francis Bacon:} Principal expoente do empirismo condutivista, via a investigação da natureza como condição para o domínio do homem sobre ela.
+    \item \textbf{Pierre Gassendi:} Sacerdote que promoveu a cristianização do atomismo antigo de Epicuro, argumentando que Deus é o criador e autor da força que regula os átomos.
+    \item \textbf{Robert Boyle:} Preferia o termo "corpúsculos" em vez de átomos, buscando conciliar a teoria coma prática química, onde propriedades como o odor dependiam do arranjo dessas partículas.
+\end{itemize}
+\subsubsection{Rejeição da Escolástica e Matematização}
+\begin{itemize}
+    \item \textbf{Galileu Galilei e Isaac Newton:} Foram fundamentais para a matematização do movimento. Newton tornou possível descrever e prever trajetórias celestes e terrestres através de equações matemáticas, superando o cosmos qualitativo de Aristóteles.
+    \item \textbf{Método Científico:} O surgimento do \textit{experimentum} marcou o uso de instrumentos específicos para investigar relações de causa e efeito.
+\end{itemize}
+\subsubsection{Provas Físicas do Vácuo}
+\begin{itemize}
+    \item \textbf{Evangelista Torricelli:} Inventou o barômetro e, através do experimento da coluna de mercúrio invertida, provou a existência do vácuo no topo do tubo, desafiando o dogma aristotético do \textit{horror vacui}.
+    \item \textbf{Blaise Pascal:} Corroborou essas descobertas com seus princípios hidrostáticos, distinguindo o vácuo físico (rarefação) do "nada" absoluto.
+\end{itemize}
+\subsubsection{Debates Historiográficos}
+\begin{itemize}
+    \item \textbf{Steven Shapin:} Provocou o debate ao afirmar que "não existiu tal coisa como a Revolução Científica", questionando a ideia de um evento único e cataclísmico e forcando no contexto social e nas práticas humanas.
+    \item \textbf{Daniel Garber e a Reforma Protestante:} Garber propõe uma analogia onde a ciência do século XVII assemelha-se à Reforma Protestante. Assim como a Igreja Católica persistiu após a Reforma, a Filosofia Aristotélica coexistiu por muito tempo com as novas "seitas" teóricas (galileanos, cartesianos, baconianos), que lutavam tanto entre si quanto contra a ortodoxia.
+\end{itemize}
+
+\subsection{A Revolução Química e a Química Pneumática}
+
+\lettrine[lines=3]{A} Revolução Química e a Química Pneumática no final do século XVIII redefiniram profundamente a compreensão de matéria por meio da experimentação quantitativa precisa e do estudo dos gases.
+
+\subsubsection{O Estudo dos Gases (Ares) e o Fim do Flogisto}
+
+\begin{itemize}
+    \item \textbf{Diferentes Gases:} A atmosfera, antes vista como um único eleento, passou a ser compreendida como uma mistura de diferentes "ares" (gases). Esse entendimento consolidou-se graças ao trabalho de cientistas como Joseph Black, Joseph Priestley, Carl Scheele e Henry Cavendish. 
+    \item \textbf{O Fim do Flogisto:} Priestley isolou o "ar desflogisticado", que foi posteriormente identificado e renomeado por Antoine-Laurent Lavoisier como gás oxigênio, o que contribuiu para derrubar a antiga teoria do flogisto.
+\end{itemize}
+
+\subsubsection{O Casal Lavoisier e a Iconografia Científica}
+
+\begin{itemize}
+    \item \textbf{Marie-Anne:} Marie-Anne Paulze-Lavoisier foi colaboradora essencial nas pesquisas, atuando como tradutora de textos em inglês (idioma que seu marido não dominava), além de documentar e ilustrar de forma precisa os experimentos em laboratório.
+    \item \textbf{Equipamentos de Precisão:} A iconografia científica da época, como o retrato do casal feito por Jacques-Louis David em 1788, detalha o uso de instrumentos de ponta como o gasômetro e o eudiômetro nas pesquisas sobre gases. Marie-Anne também registrou visualmente experimentos clássicos sobre a respiração.
+\end{itemize}
+
+\subsubsection{O "Tratado Elementar de Química" (1789)}
+
+\begin{itemize}
+    \item \textbf{Conceito de Elemento:} Lavoisier estabeleceu uma definição empírica de elemento químico como o limite extremo ao qual chega a análise, considerando substâncias simples aquelas que não podiam ser decompostas por nenhum método conhecido.
+    \item \textbf{Química Estática:} O conceito de equilíbrio químico foi introduzido em seguida por Claude-Louis Berthollet, lançando as bases conceituais para a estática química.
+\end{itemize}
+
+\subsubsection{Ciência Quantitativa e Seus Equívocos}
+
+\begin{itemize}
+    \item A revolução converteu a antiga química em uma ciência exata e quantitativa. Contudo, Lavoisier manteve resíduos conceituais de uma química qualitativa e inclui em sua tabela de 33 elementos substâncias imponderáveis que hoje sabe-se não serem elementos, como o calórico (entendido como o fluído de calor) e a luz.
+\end{itemize}
+
+\subsection{As Leis das Reações Químicas (Ponderais e Volumétricas)}
+
+\lettrine[lines=3]{A} Quantificação exata das transformações químicas através das leis ponderais e volumétricas permitiu estabelecer as bases empíricas e matemáticaas da química moderna servindo de sustentação para a teoria atômica.
+
+\subsubsection{Leis Ponderais (Relações de Massa)}
+
+\begin{itemize}
+    \item \textbf{Lei da Conversação da Massa de Lavoisier de 1789:} Em um sistema fechado, a massa total não varia. A soma das massas dos reagentes deve ser igual à soma das massas dos produtos ("na natureza, nada se cria ou se perde mas tudo se transforma").
+    \item \textbf{Lei das Proporções Definidas de Proust de 1801:} A proporção em massa dos elementos em uma susbtância pura é constante, não importando sua origem.. Ela possibilita o cálculo da composição centesimal de um composto e fundamenta as análises estequiométricas.
+    \item \textbf{Lei das Proporções Múltiplas de Dantol de 1803:} Quando dois elementos formam compostos diferentes, fixando-se a massa de um, as massas do outro variam em uma proporção de números inteiros pequenos.
+    \item \textbf{Lei das Proporções Recíprocas ou dos Equivalentes de Richter de 1791:} Se duas massas de elementos diferentes reagem separadamente com uma massa fixa de um terceiro, ao reagirem entre si o farão na mesma proporção ou em uma razão de inteiros pequenos.
+\end{itemize}
+
+\subsubsection{Lei Volumétrica dos Gases}
+\begin{itemize}
+    \item \textbf{Lei da Combinação Volumétrica de Gay-Lussac de 1808:} Sob mesmas condições de temperatura e pressão, os volumes dos gases participantes de uma reação química (reagentes e produtos) guardam entre si relações de proporções de números inteiros e pequenos.
+\end{itemize}
+
+\subsubsection{Do Macroscópio ao Microscópio}
+
+\begin{itemize}
+    \item \textbf{A Origem da Teoria Atômica Clássica:} Essas leis foram deduzidas de forma puramente empírica antes de se conhecer as estruturas eletrônicas e ligações químicas.
+    \item \textbf{Conexão Matemática:} Ao tratar matematicamente os dados macroscópicos obtidos em balanças e laboratórios, John Dalton realizou a quantificação da teoria atômica. Ele atribuiu pesos atômicos relativos às "partículas últimas" (átomos), explicando por que a matéria combina-se em proporções fixas. Isso retirou o átomo do domínio de mera abstração filosófica e consolidou a química como uma ciência exata.
+\end{itemize}
+
+\subsection{A Teoria Atômica de John Dalton}
+
+\lettrine[lines=3]{A} Teoria Atômica de John Dalton, publica na primeira década do século XIX, representou um marco científico ao converter o átomo de uma especulação filosífica, antiga em um modelo matemático e experimental prático.
+
+\subsubsection{A Ressignificação do Átomo e a Unificação Científica}
+
+\begin{itemize}
+    \item \textbf{Do Abstrato ao Concreto:} Dalton unificou a tradição filosófica corpuscular mecanicista (como as ideias de Newton e Boyle) com as evidências pragmáticas das leis ponderais de Lavoisier e Proust. Sob essa nova ótica, o átomo deixou de ser uma abstração intangível e ganhou massa atômica relativa, algo mensurável por meio de balanças de laboratório.
+    \item \textbf{Origem nos Gases:} O modelo de Dalton nasceu diretamente de suas paixóes meteorológicas e do estudo prático da dinâmica atmosférica, misturas de gases e solubilidade gasosa em água, investigações que contaram com a colaboração de seu amigo William Henry.
+\end{itemize}
+
+\subsubsection{Principais Atores e Controvérsia de Prioridade}
+
+\begin{itemize}
+    \item \textbf{John Dalton:} Cientista e meteorologista inglês de formação autodidata, famoso por registrar meticulosamente mais de 200 mil observações climáticas ao longo da vida.
+    \item \textbf{Thomas Thomson:} Químico escocês que ouviu a teoria de Dalton e publicou a primeira descrição impressa dela no livro \textit{System of Chemistry} (1807), utilizando a palavra "átomo" e os símbolos datonianos.
+    \item \textbf{William Hiigins:} Químico irlandês que propôs em 1789 um teoria rudimentar baseada em "partículas últimas". Anos depois, envolveu-se em uma controvérsia de prioridade intelectual, reivindicando para si a autoria da teoria atômica.
+\end{itemize}
+
+\subsubsection{Postulados Físicos e Químicos}
+
+\begin{itemize}
+    \item \textbf{Lei das Pressões Parciais:} Formulada em 1801, postula que em uma mistura de gases, a pressão total é a soma das pressões individuais que cada gás exerceria se estivesse sozinho no espaço (ou seja, "cada gás se comporta como um vácuo para o outro").
+    \item \textbf{Atmosfera de Calórico:} Dalton imaginava os átomos gasosos envolvidos por uma densa atmosfera de calórico repulsivo (o fluído de calor herdado de Lavoisier), suja repulsão mútua justificava a homogeneirdade e a expansão dos gases na atmosfera.
+    \item \textbf{Regra da Máxima Simplicidade:} Dalton adotou o pressuposto teórico arbitrário de que, se dois elementos formassem apenas um composto conhecido, a união de seus átomos ocorreria na proporção de 1 para 1. Isso levou a formular a água como "HO", gerando valores iniciais incorretos de massas atômicas.
+\end{itemize}
+
+\subsubsection{Publicação, Notação e o Padrão Hidrogênio}
+
+\begin{itemize}
+    \item \textbf \textit{A New System of Chemical Philosophy} (1808): Obra principal de Dalton onde ele apresentou formalmente as bases quantitativas de sua teoria.
+    \item \textbf{Notação Circular Pictórica:} Para fins didáticos e representavos, Dalton criou uma notação pictórica com símbolos circulares para representar os átomos dos seus elementos e seus "átomos compostos" (moléculas.)
+    \item \textbf{O Padrão de Hidrogênio:} Para calcular a primeira escala de massas atômicas relativas, Dalton utilizou o átomo de hidrogênio como padrão básico unitário (massa = 1), comparando o peso de todos os outros elementos e substâncias em relação a ele.
+\end{itemize}
+
+\section{Estrutura Molecular}
+
+Maecenas sed ultricies felis. Sed imperdiet dictum arcu egestas.
+
+\begin{itemize}[leftmargin=1.2em]
+
+\item Donec dolor arcu, rutrum id molestie in.
+
+\item Curabitur feugiat.
+
+\item Turpis sed auctor facilisis.
+
+\item Arcu eros accumsan lorem.
+
+\item Fusce fermentum.
+
+\item Pellentesque bibendum pretium.
+
+\end{itemize}
+
+\lipsum[2]
+
+%------------------------------------------------
+
+\section{Estrutura Intermolecular}
+
+\lipsum[3]
+
+%------------------------------------------------
+
+\section{Exercícios}
+
+\lipsum[4]
+
+\end{document}
