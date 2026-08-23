@@ -427,6 +427,143 @@ Este período marca a primeira tentativa estruturada de explicar a multiplicidad
     \item \textbf{O Padrão de Hidrogênio:} Para calcular a primeira escala de massas atômicas relativas, Dalton utilizou o átomo de hidrogênio como padrão básico unitário (massa = 1), comparando o peso de todos os outros elementos e substâncias em relação a ele.
 \end{itemize}
 
+\subsection{História dos Raios Catódicos}
+
+\lettrine[lines=3]{A}s investigações sobre os raios catódicos no século XIX abriram caminho para a descoberta do elétron, gerando intensos debates sobre a natureza ondulatória ou corpuscular dessas emissões.
+
+\subsubsection{Observações Inaugurais}
+
+\begin{itemize}
+    \item \textbf{Primeiras Investigações:} Em 1835, Michael Faraday observou descargas elétricas luminosas e manchas fosforescentes em gases rarefeitos. Em 1857, Julius Plücker descobriu os raios catódicos ao notar luminescência verde fluorescente na parede do vidro de ampolas sob baixa pressão.
+    \item \textbf{Propagação retilínea:} Em 1858, Plücker percebeu que um ímã desviava essa luminescência. Em 1869, Johann Hittorf demonstrou que as emissões viajavam em linha reta ao projetar a sombra de um objeto colocado diante do cátodo, consolidando o conceito de "raios catódicos".
+\end{itemize}
+
+\subsubsection{A Experiência da Cruz de Malta}
+
+\begin{itemize}
+    \item \textbf{William Crookes (1879):} Utilizando tubos de vácuo mais elevado, Crookes colocou uma cruz de Malta feita de mica fina entre o cátodo e a parede do tubo. O bloqueio dos raios catódicos pela cruz projetou uma sombra perfeitamente definida na extremidade fluorescente da ampola, provando definitivamente que os raios viajam em linha reta a partir do cátodo.
+\end{itemize}
+
+\subsubsection{Ondas \textit{vs.} Corpúsculos}
+
+\begin{itemize}
+    \item \textbf{Escola Alemã:} Liderada por cientistas como Heinrich Hertz, defendia que os raios catódicos eram ondas ou perturbações propagadas no éter (fenômeno de natureza eletromagnética semelhante à luz).
+    \item \textbf{Escola Britânica:} Apoiada por físicos como Crookes e J. J. Thoomson, argumentava que os raios possuíam natureza corpuscular, consistindo em correntes de partículas carregadas negativamente disparadas do cátodo a altas velocidades.
+\end{itemize}
+
+\subsubsection{O Experimento de Jean Perrin (1895)}
+
+\begin{itemize}
+    \item \textbf{Carga Negativa Demonstrada:} Perrin provou experimentalmente que os raios catódicos transportavam carga negativa ao capturá-los em um cilindro metálico conectado a um eletroscópio, que se eletrizou negativamente. O experimento tornou-se conclusivo quando Perrin colocou o coletor metálico fora da trajetória direta do feixe e utilizou um ímã para defletir os raios em direção ao interior do recipiente, que voltou a acumular eletricidade negativa.
+\end{itemize}
+
+\subsubsection{A Falha de Hertz e a Blindagem Eletrostática}
+
+\begin{itemize}
+    \item \textbf{Tentativa Frustada:} Em 1883, Heinrinch Hertz tentou desviar os raios catódicos usando um campo elétrico e; ao não observar nenhum desvio, concluiu de forma equivocada que eles não eram eletricamente carregados.
+    \item \textbf{Causa da Falha:} O tudo de Hertz continha vácuo insuficiente (gás residual). Os raios catódicos, ao passarem pelo gás rarefeito, ionizavam suas moléculas, tornando-o condutor de eletricidade. Esse gás ionizado formou uma blindagem eletrostática condutora ao redor dos raios, isolando-os e protegendo-os do efeito do campo elétrico externo.
+    \item \textbf{O sucesso de Thomson:} Em 1897, J. J. Thomson conseguiu exaurir que quase todo gás residual da ampola após bombear e manter a descarga ativa por dias para extrair os gases adsorvidos nas paredes. Com esse vácuo extremo, o efeito de blindagem eletrostático foi desfeito, permitindo a Thomson observar a deflexão eletrostática nítida dos raios catódicos na direção do polo positivo.
+\end{itemize}
+
+\subsection{A Descoberta do Elétron por J. J. Thomson}
+
+\lettrine[lines=3]{A} descoberta do elétron por J. J. Thomson, em 1897, representou o primeiro marco da divisibilidade do átomo através da investigação rigorosa dos raios catódicos.
+
+\subsubsection{Superação da Blindagem Elétrica e o Alto Vácuo}
+
+\begin{itemize}
+    \item \textbf{O Problema da Blindagem:} Em experimentos anteriores (como os de Heinrich Hertz), a presença de gás residual no tubo sofria pela passagem dos raios catódicos, transformando o gás em umm condutor elétrico. Esse meio condutor criava uma blindagem eletrostática no redor do feixe de partículas, isolando-o e impedindo a observação de qualquer desvio sob a ação de forças elétricas externas.
+    \item \textbf{A Solução Tecnológica:} Thomson e seu assistente, Ebenezer Everett, superaram esse problema utilizando uma bomba de vácuo de mercúrio de Töpler (trabalhada manualmente), bombeando o sistema continuamente por dias enquanto mantinham a descarga ativa para eliminar os gases adsorvidos nas paredes de vidro e nos eletrodos. Ao reduzir a pressão de ar no tubo de níveis mínimos, o efeito de blindagem foi anulado, permitindo a observação pioneira da deflexão eletrostática dos raios catódicos.
+\end{itemize}
+
+\subsubsection{Medição da Velocidade pelo Equilíbrio de Campos}
+
+\begin{itemize}
+    \item Thomson determinou a velocidade $(v)$ das partículas aplicando simultaneamente um campo elétrico $(X)$ e um campo magnético $(H)$ de forma perpendicular e oposta.
+    \item Ao ajustar os campos para que a força magnética $(H_{ev})$ equilibrasse perfeitamente a força elétrica $(X_e)$, o feixe de raios catódicos atravessava o tubo em linha reta, sem sofrer qualquer desvio. Sob essa condição de equilíbrio, a velocidade foi calculada de forma direta pela equação
+
+    \begin{center}
+        
+    $$v=\frac{X}{H}$$
+
+    \end{center}
+
+    \item Nos tubos sob vácuo extremo, essa velocidade mostrou-se surpreendentemente alta, atingindo até um terço da velocidade da luz.
+\end{itemize}
+
+\subsubsection{Determinação da Razão Carga-Massa} $(\frac{e}{m})$
+
+\begin{itemize}
+    \item Tendo calculado a velocidade $(v)$, Thomson desligou o campo magnético e submeteu as partículas à ação exclusiva do campo elétrico $(X)$, provocando um desvio vertical $(d)$ análogo à trajetórica de queda de um projétil sob a gravidade.
+    \item Medindo o deslocamento vertical $(d)$ do feixe ao colidir com a parede fluorescente do tubo, ele deduziu a razão carga-massa $(\frac{e}{m})$ através da seguinte equação, onde $l$ representa o comprimento das placas elétricas:
+
+    \begin{center}
+        
+    $$\frac{e}{m}=\frac{2d\cdot v^2}{X\cdot l^2}$$
+
+    \end{center}    
+
+\end{itemize}
+
+\subsubsection{Invariabilidade do Valor e Independência da Matéria}
+
+\begin{itemize}
+    \item Para testar a universalidade da partícula, Thomson repetiu as medições utilizando quatro gases diferentes no interior do tubo (como ar, hidrogênio e dióxido de carbono) e eletrodos feitos de diferentes materiais (como alumínio e platina).
+    \item O valor de $\frac{e}{m}$ obtido permaneceu rigorosamente invariável e constante sob todas as configurações, provando que esses corpúsculos eram constituintes fundamentais e idênticos de toda a matéria, independentemente do gás ou do metal de origem.
+\end{itemize}
+
+\subsubsection{Dedução de uma Massa Subatômica}
+
+\begin{itemize}
+    \item A razão $\frac{e}{m}$ medida por Thomson $(1,76\times 10^{11})$ C/kg era cerca de 1700 vezes maior que a razão correspondente para o íon de hidrogênio $(10^4)$, que era a menor unidde de matéria conhecida na época.
+    \item Como o valor da carga elementar $(e)$ mostrou-se idêntico ao do hidrogênio $(E)$, Thomson concluiu que a gigantesca razão $\frac{e}{m}$ devia-se à extrema leveza da nova partícula, cuja massa $(m)$ correspondia a aproximadamente $\frac{1}{1700}$ da massa do átomo de hidrogênio (fontes modernas quantificam essa proporção em cerca de $\frac{1}{1840}$).
+\end{itemize}
+
+\subsubsection{De "Corpúsculos" a "Elétrons"}
+
+\begin{itemize}
+    \item Fiel à sua visão materialista, Thomson chamou originalmente essas partículas subatômicas de "corpúsculos".
+    \item No entanto, o físico irlandês George Johnstone Stoney já havia proposto o termo "elétron" em 1891 para designar a unidade fundamental de carga elétrica teórica. Defendido por físicos proeminentes como George FitzGerald, Joseph Lamor e Henrick Lorentz para descerver a natureza da partícula de Thomson, o termo "elétron" consolidou-se universalmente por volta de 1910.
+\end{itemize}
+
+\subsection{Determinação da Carga Elementar e a Câmara de Nuvens}
+
+\lettrine[lines=3]{A} determinação da carga elementar deu seus primeiros passos práticos por meio do estudo da condensaão de água sobre partículas carregadas e da aplicação de leis físicas macroscópicas.
+
+\subsubsection{A Câmara de Expansão de C. T. R. Wilson}
+
+\begin{itemize}
+    \item \textbf{Núcleos de Condensação:}
+    \item \textbf{Limiar da Supersaturação:}
+    \item \textbf{Formação da Nuvem:}
+\end{itemize}
+
+\subsubsection{O Método Inicial de J. J. Thomson}
+
+\begin{itemize}
+    \item \textbf{Medição da Queda:}
+    \item \textbf{Uso da Lei de Stokes:}
+    \item \textbf{Cálculo da Carga:}
+\end{itemize}
+
+\subsubsection{As Melhorias de H. A. Wilson}
+
+\begin{itemize}
+    \item \textbf{Campo Elétrico Vertical:}
+    \item \textbf{Gotas Negativas:}
+    \item \textbf{Suspensão e Equilíbrio:}
+\end{itemize}
+
+\subsubsection{Limitações Experimentais: O Problema da Evaporação}
+
+\begin{itemize}
+    \item \textbf{Evaporação Rápida:}
+    \item \textbf{Erros de Medição:}
+    \item \textbf{Transição para o Óleo:}
+\end{itemize}
+
+\subsection{O Experimento da Gota de Óleo e a Quantização da Carga}
+
 \section{Estrutura Molecular}
 
 Maecenas sed ultricies felis. Sed imperdiet dictum arcu egestas.
