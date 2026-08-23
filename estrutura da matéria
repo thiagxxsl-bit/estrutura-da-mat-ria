@@ -481,12 +481,8 @@ Este período marca a primeira tentativa estruturada de explicar a multiplicidad
 \begin{itemize}
     \item Thomson determinou a velocidade $(v)$ das partículas aplicando simultaneamente um campo elétrico $(X)$ e um campo magnético $(H)$ de forma perpendicular e oposta.
     \item Ao ajustar os campos para que a força magnética $(H_{ev})$ equilibrasse perfeitamente a força elétrica $(X_e)$, o feixe de raios catódicos atravessava o tubo em linha reta, sem sofrer qualquer desvio. Sob essa condição de equilíbrio, a velocidade foi calculada de forma direta pela equação
-
-    \begin{center}
         
     $$v=\frac{X}{H}$$
-
-    \end{center}
 
     \item Nos tubos sob vácuo extremo, essa velocidade mostrou-se surpreendentemente alta, atingindo até um terço da velocidade da luz.
 \end{itemize}
@@ -496,12 +492,8 @@ Este período marca a primeira tentativa estruturada de explicar a multiplicidad
 \begin{itemize}
     \item Tendo calculado a velocidade $(v)$, Thomson desligou o campo magnético e submeteu as partículas à ação exclusiva do campo elétrico $(X)$, provocando um desvio vertical $(d)$ análogo à trajetórica de queda de um projétil sob a gravidade.
     \item Medindo o deslocamento vertical $(d)$ do feixe ao colidir com a parede fluorescente do tubo, ele deduziu a razão carga-massa $(\frac{e}{m})$ através da seguinte equação, onde $l$ representa o comprimento das placas elétricas:
-
-    \begin{center}
         
-    $$\frac{e}{m}=\frac{2d\cdot v^2}{X\cdot l^2}$$
-
-    \end{center}    
+    $$\frac{e}{m}=\frac{2d\cdot v^2}{X\cdot l^2}$$   
 
 \end{itemize}
 
@@ -533,36 +525,77 @@ Este período marca a primeira tentativa estruturada de explicar a multiplicidad
 \subsubsection{A Câmara de Expansão de C. T. R. Wilson}
 
 \begin{itemize}
-    \item \textbf{Núcleos de Condensação:}
-    \item \textbf{Limiar da Supersaturação:}
-    \item \textbf{Formação da Nuvem:}
+    \item \textbf{Núcleos de Condensação:} C. T. R. Wilson descobriu que íons carregados eletricametne agem como núcleos de condensação ao redor dos quais o vapor de água se deposita para formar gotículas.
+    \item \textbf{Limiar da Supersaturação:} Em ar livre de poeira, a formação de névoa exige um resfriamento que gere uma supersaturação de cerca de oito vezes; no entando, na presença de íons gasosos condutores, uma supersaturação de apenas quatro vezes é suficiente para iniciar a condensação.
+    \item \textbf{Formação da Nuvem:} Ao expandir rapidamente o ar úmido dentro de um cilindro usando um êmbolo, o gás resfria e se supersatura, fazendo com que a água condense sobre os íons e crie uma nuvem visível de gotículas.
 \end{itemize}
 
 \subsubsection{O Método Inicial de J. J. Thomson}
 
 \begin{itemize}
-    \item \textbf{Medição da Queda:}
-    \item \textbf{Uso da Lei de Stokes:}
-    \item \textbf{Cálculo da Carga:}
+    \item \textbf{Medição da Queda:} Thomson utilizou esse sistema de nuvens para estimar a carga elétrica elementar. Ele calculou o númeero total de gotículas dividindo o volume total de água condensada pelo volume de uma única gota.
+    \item \textbf{Uso da Lei de Stokes:} Para encontrar o raio (e, consequentemente, o volume) de uma gota individual, Thomson mediu a velocidade terminal de queda lenta da névoa sob a ação da gravidade, aplicando a Lei de Stokes (que relaciona a velocidade de queda de uma esfera à sua viscosidade no meio).
+    \item \textbf{Cálculo da Carga:} Medindo a carga elétrica total da nuvem e dividindo-a pelo número estimado de gotículas, Thomson deduziu que a carga de cada partícula era de aproximadamente $1\times 10^{-19}$ C.
 \end{itemize}
 
 \subsubsection{As Melhorias de H. A. Wilson}
 
 \begin{itemize}
-    \item \textbf{Campo Elétrico Vertical:}
-    \item \textbf{Gotas Negativas:}
-    \item \textbf{Suspensão e Equilíbrio:}
+    \item \textbf{Campo Elétrico Vertical:} H. A. Wilson simplificou o método em 1903 ao introduzir duas placas metálicas para aplicar um campo elétrico vertical que se opunha à força da gravidade.
+    \item \textbf{Gotas Negativas:} Como a água condensa mais facilmente sobre íons negativos do que positivos, ele ajustou a expansão para gerar uma nuvem composta exclusivamente por gotas eletrizadas negativamente.
+    \item \textbf{Suspensão e Equilíbrio:} Ao aplicar o campo elétrico com as placas, a força elétrica ascendente reduzia a velocidade de queda das gotas. Ajustando a força elétrica $(X)$ para equilibrar exatamente o peso da gota $(w)$, as gotículas ficavam suspensas no ar. Sabendo que no equilíbrio $Xe=w$, ele calculou a carga $e$ com maior facilidade, obtendo valores em torno de $1,04\times 10^{-19}$ C.
 \end{itemize}
 
 \subsubsection{Limitações Experimentais: O Problema da Evaporação}
 
 \begin{itemize}
-    \item \textbf{Evaporação Rápida:}
-    \item \textbf{Erros de Medição:}
-    \item \textbf{Transição para o Óleo:}
+    \item \textbf{Evaporação Rápida:} Tanto para o método de Thomson quanto o de Wilson sofriam de uma gravíssima limitação: as gotículas de água sofriam rapída e incontrolável evaporação durante as medições.
+    \item \textbf{Erros de Medição:} Como a massa e o raio das gotas diminuíam continuamente, suas velocidades de queda mudavam constantemente. Isso causava superestimação no cálculo do número de gotículas e gerava valores imprecisos para a carga elétrica do elétrons.
+    \item \textbf{Transição para o Óleo:} Essa instabilidade evaporativa foi o fator crucial que levou Robert Millikan a abandonar a água e adotar gotas de óleo (substância que praticamente não evapora) em suas famosas experiências definitivas.
 \end{itemize}
 
 \subsection{O Experimento da Gota de Óleo e a Quantização da Carga}
+
+\lettrine[lines=3]{O} Experimento da Gota de Óleo, realizado por Robert Millikan com a colaboração de Harvey Fletcher, resolveu um dos maiores desafios da física ao provar a natureza corpuscular e quantizada da eletricidade.
+
+\subsubsection{Substituição da Água por Óleo}
+
+\begin{itemize}
+    \item \textbf{O Problema da Evaporação:} Nos experimentos anteriores de determinação da carga (como os de H. A. Wilson), as gotas de água sofriam rápidas evaporação, alterando sua massa durante a observação e gerando imprecisões severas.
+    \item \textbf{A Solução:} Fletcher substituiu a água por óleo de relógio, uma substância de baixíssima volatilidade que mantinha a massa e o raio constantes por longos períodos. O óleo era injetado no aparato usando um atomizador de perfume comum, que gerava gotículas esféricas microscópicas por atrito.
+\end{itemize}
+
+\subsubsection{Controvérsia Millikan-Fletcher}
+
+\begin{itemize}
+    \item \textbf{Parceria Não Creditada:} O estudante de doutorado Harvey Fletcher teve um papel ativo na concepção da ideia do óleo, comprou o atomizador e montou o primeiro aparato funcional em apenas um dia.
+    \item \textbf{Acordo de Autoria:} Millikan, visando o prestígio acadêmico que culminaria no Prêmio Nobel de 1923, propôs um acordo de autoria: ele seria o único autor do artigo principal sobre a determinação da carga elementar $(e)$, enquanto Fletcher assinaria como autor único os artigos subsequentes sobre o movimento browniano como sua tese de doutorado. Esse acordo relegou Fletcher ao papel de colaborador invisível na publicação ais famosa do século XX.
+\end{itemize}
+
+\subsubsection{O Aparato Experimental}
+
+\begin{itemize}
+    \item \textbf{Placas de Capacitor:} Duas placas de latão horizontais e paralelas, separadas por um espaçador e conectadas a uma fonte de alta tensão (cerca de 5.000 a 6.000 V), gerando um campo elétrico vertical controlado.
+    \item \textbf{Telescópio de Observação:} Lente de foco curto para monitorar o movimento individual de uma única gota iluminada por um feixe de luz forte.
+    \item \textbf{Manômetro:} Usado para monitorar a pressão interna do ar na câmara, necessária para calibrar as correções da viscosidade do ar.
+    \item \textbf{Ionização Induzida:} O ar entre as placas era ionizado usando raios X ou uma fonte radioativa de tório-232 (emissor de partículas $\alpha$), carregando eletricamente as gotículas de óleo que capturavam esse íons.
+\end{itemize}
+
+\subsubsection{Tratamento Matemático e Dinâmica da Gota}
+
+\begin{itemize}
+    \item \textbf{Força Gravitacional $(F_g=mg)$:} Puxa a gota para baixo.
+    \item \textbf{Força de Arraste Viscoso $(F_a)$:} Opõe-se ao movimento da gota. É descrita pela lei de Stokes $(F_a=6\pi r\eta v)$, onde $r$ é o ratio da gota, $\eta$ é a viscosidade do ar e $v$ é a velocidade terminal.
+    \item \textbf{Força Elétrica $(F_e=qE)$:} Gerada pelo campo elétrico $E$ entre as placas, empurrando as gotas carregadas para cima ou para baixo (dependendo do sinal da carga).
+\end{itemize}
+
+\subsubsection{Coleta de Dados e Quantização}
+
+\begin{itemize}
+    \item \textbf{Determinação de Raio e Massa:} Desligando-se o campo elétrico $(V=0)$, media-se o tempo de queda sob ação da gravidade para obter a velocidade terminal de descida $(v_d)$. Pela Lei de Stokes, essa velocidade permitia calcular com precisão o raio $r$ e a massa $m$ da gota.
+    \item \textbf{Determinação da Carga:} Aplicando-se a diferença de potencial, media-se o tempo e a velocidade de subida $(v_s)$ da gota sob a influênccia do campo elétrico.
+    \item \textbf{A Prova da Quantização:} Ao analisar os valores de carga $q$ calculada para milhares de gotas diferentes, Millikan e Fletcher demonstraram que as cargas não variavam de forma contínua, mas eram sempre múltiplos inteiros $(q=Ne)$ de um valor mínimo fundamental. Esse valor, a carga elementar do elétron, foi determinado como sendo aproximadamente $1,6\times 10^{-19}$ C.
+\end{itemize}
 
 \section{Estrutura Molecular}
 
