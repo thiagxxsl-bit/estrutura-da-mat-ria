@@ -1,13 +1,16 @@
-\documentclass[12pt,twocolumn]{article}
+
+\documentclass[12pt]{article}
 
 %------------------------------------------------
 % PACOTES
 %------------------------------------------------
 
 \usepackage[a4paper,margin=2cm]{geometry}
+\usepackage{fix-cm}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 
+\usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{setspace}
 \usepackage{fancyhdr}
@@ -18,9 +21,10 @@
 \usepackage{lipsum}
 \usepackage{authblk}
 
-\setlength{\columnsep}{0.8cm}
 \setlength{\parindent}{1em}
 \setlength{\parskip}{0pt}
+\setlength{\headheight}{14pt}
+\setlength{\emergencystretch}{2em}
 
 %------------------------------------------------
 % CABEÇALHO
@@ -52,7 +56,7 @@
 {}
 
 \titleformat{\subsection}
-{\large\scshape}
+{\large\scshape\raggedright}
 {\thesection.\arabic{subsection}}
 {0.8em}
 {}
@@ -71,9 +75,6 @@
 \begin{document}
 
 \thispagestyle{firstpage}
-
-\twocolumn[
-\begin{@twocolumnfalse}
 
 \vspace{0.5cm}
 
@@ -103,9 +104,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut purus elit, vestibul
 
 \vspace{0.6cm}
 
-\end{@twocolumnfalse}
-]
-
 %------------------------------------------------
 
 \section{Estrutura Atômica}
@@ -120,7 +118,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut purus elit, vestibul
 
 \item \textbf{Explicações Inaugurais:} As cosmogonias antigas buscavam explicar a ordem e a origem do mundo natural através de divindades e mitos.
 
-\item \textbf{Exemplo Mitológico:} Uma lenda afro-brasileira narra que a fúria de Olorum contra Iemanjá resultou na inundação da Terra; a intervenção de Ogum ao cavar o solo atingiu o reino de Obaluaiê (fogo subterrâneo), gerando terremotos que formavam continenetes e montanhas. Nesse contexto, deuses como Xangô (fogo) e Oxalá (ar) personificavam fenômenos naturais. 
+\item \textbf{Exemplo Mitológico:} Uma lenda afro-brasileira narra que a fúria de Olorum contra Iemanjá resultou na inundação da Terra; a intervenção de Ogum ao cavar o solo atingiu o reino de Obaluaiê (fogo subterrâneo), gerando terremotos que formavam continenetes e montanhas. Nesse contexto, deuses como Xangô (fogo) e Oxalá (ar) personificavam fenômenos naturais.
 
 \end{itemize}
 
@@ -130,9 +128,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut purus elit, vestibul
 
 \item \textbf{O Surgimento da Ciência:} Com o desenvolvimento das cidades, o homem sentiu-se mais protegido e a mitologia tornou-se insuficiente para responder as novas questões filosóficas.
 
-\item \textbf{Filósofos Pré-Socráticos:} O conceito de "cosmos" surgiu na Grécia Antiga, buscando compreender a origem (physis) de forma estruturada. Nesse contexto, Tales de Mileto propôs a água como princípio primordial, Anaximandro sugeriu o \textit{apeiron} (o indeterminado), enquanto Heráclito defendia a constante mudança e o \textit{devir}, em constraste com Parmênides, para quem o "Ser" era imutável e eterno.
+\item \textbf{Filósofos Pré-Socráticos:} O conceito de ``cosmos'' surgiu na Grécia Antiga, buscando compreender a origem (physis) de forma estruturada. Nesse contexto, Tales de Mileto propôs a água como princípio primordial, Anaximandro sugeriu o \textit{apeiron} (o indeterminado), enquanto Heráclito defendia a constante mudança e o \textit{devir}, em constraste com Parmênides, para quem o ``Ser'' era imutável e eterno.
 
-\item \textbf{Plurarismo e Elementos:} Empédocles identificou quatro "elementos" imortais - terra, fogo, água e ar - movidos pelas forças opostas do Amor (Amizade) e do Ódio.
+\item \textbf{Plurarismo e Elementos:} Empédocles identificou quatro ``elementos'' imortais --- terra, fogo, água e ar --- movidos pelas forças opostas do Amor (Amizade) e do Ódio.
 
 \end{itemize}
 
@@ -140,7 +138,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut purus elit, vestibul
 
 \begin{itemize}
 
-\item \textbf{Máscaras e Transfiguração:} A filosofia de Empédocles pode ser lida sob uma perspectiva dionísica, onde os elementos não são "tijolos" estáticos, mas "máscaras" ou aparências transitórias da natureza
+\item \textbf{Máscaras e Transfiguração:} A filosofia de Empédocles pode ser lida sob uma perspectiva dionísica, onde os elementos não são ``tijolos'' estáticos, mas ``máscaras'' ou aparências transitórias da natureza
 
 \item \textbf{Simpósio e Teatro:} Ritos como o simpósio (embriaguez e integração com o todo) e o teatro (personificação do deus) refletem a visão de mundo de transmutação contínua presente nos versos de Empédocles.
 
@@ -154,7 +152,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut purus elit, vestibul
 
 \item \textbf{Revolução Agrícola e Metais:} O uso prático do fogo foi o motor da Revolução Agrícola e da Idade dos Metais, permitindo o domínio tecnológico sobre os materiais.
 
-\item \textbf{Era das Explorações:} Na expansão marítima, o fogo manifestava-se em armas "que vomitavam estrondo e fumaça", assombrando povos nativos. Os progressos no aquecimento e iluminação no norte da Europa também impulsionavam o deslocamento da atividade econômica e intelectual no século XVII.
+\item \textbf{Era das Explorações:} Na expansão marítima, o fogo manifestava-se em armas ``que vomitavam estrondo e fumaça'', assombrando povos nativos. Os progressos no aquecimento e iluminação no norte da Europa também impulsionavam o deslocamento da atividade econômica e intelectual no século XVII.\@
 
 \item \textbf{Controle do Tempo:} O fogo foi usado para medição prática através de relógios de vela, de corda e despertadores de fogo.
 
@@ -165,7 +163,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut purus elit, vestibul
 
 
 
-\subsection{Filosofia Pré-Socrática e a Busca pela \textit{Arché}}
+\subsection{Filosofia Pré-Socrática e a Busca pela Arché}
 
 \lettrine[lines=3]{A}{Filosofia Pré-Socrática} representa a transição do pensamento mítico para a investigação racional da natureza através da busca pela \textit{arché} (princípio primordial).
 
@@ -175,17 +173,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut purus elit, vestibul
 
     \item \textbf{Tales de Mileto:} Considerado o fundador da filosofia cosmológica, identificou a água como a substância básica de todas as coisas, baseando-se em suas propriedades físicas essenciais para a vida.
 
-    \item \textbf{Anaximandro:} Foi o primeiro a utilizar o termo \textit{arché}. Discordava de Tales e propôs o \textit{apeiron} (o indeterminado) - uma substância primária, imaterial e infinita - como origem de tudo.
+    \item \textbf{Anaximandro:} Foi o primeiro a utilizar o termo \textit{arché}. Discordava de Tales e propôs o \textit{apeiron} (o indeterminado) --- uma substância primária, imaterial e infinita --- como origem de tudo.
 
     \item \textbf{Anaxímenes:} Identificou o ar como a essência primordial que sustenta o cosmo.
-    
+
 \end{itemize}
 
 \subsubsection{Mobilismo \textit{vs.} Ontologia do Ser}
 
 \begin{itemize}
     \item \textbf{Heráclito de Éfeso:} Defendia o Mobilismo, onde a essência da natureza é a constante mudança e transformação (\textit{devir}). Sua famosa analogia afirma que não se pode entrar duas vezes no mesmo rio, pois as águas e o homem mudam.
-    \item \textbf{Parmênides de Eleia:} Propôs a ontologia do Ser, defendendo que o "Ser" é único, imutável e eterno. Para ele, a mudança e o movimento são ilusões dos sentidos; se o Ser se transformasse, ele deixaria de ser, o que seria logicamente impossível.
+    \item \textbf{Parmênides de Eleia:} Propôs a ontologia do Ser, defendendo que o ``Ser'' é único, imutável e eterno. Para ele, a mudança e o movimento são ilusões dos sentidos; se o Ser se transformasse, ele deixaria de ser, o que seria logicamente impossível.
     \item \textbf{Zenão de Eleia:} Criou paradoxos lógicos (como Aquiles e a Tartaruga) para provar logicamente que o movimento a multiplicidade são enganos sensoriais, reforçando a imobilidade do Ser.
 \end{itemize}
 
@@ -209,8 +207,8 @@ Este período marca a primeira tentativa estruturada de explicar a multiplicidad
 \subsubsection{A Pluralidade da Matéria e os Processos de Transformação}
 
 \begin{itemize}
-    \item \textbf{Empédocles de Agrigento:} Propôs que a matéria é formada por quatro "elementos" eternos e imortais: terra, água, ar e fogo.
-    \item \textbf{\textit{Míxis} e \textit{Krásis}:} Ele negava a existência do nascimento e da morte literais; para ele, o que percebemos como "desabrochar" da natureza são apenas processos de mistura (\textit{míxis}) e crase (\textit{krásis}) desses elementos. Esses termos também remetem a ritos vitais, como o ato sexual e o tempero do vinho.
+    \item \textbf{Empédocles de Agrigento:} Propôs que a matéria é formada por quatro ``elementos'' eternos e imortais: terra, água, ar e fogo.
+    \item \textbf{\textit{Míxis} e \textit{Krásis}:} Ele negava a existência do nascimento e da morte literais; para ele, o que percebemos como ``desabrochar'' da natureza são apenas processos de mistura (\textit{míxis}) e crase (\textit{krásis}) desses elementos. Esses termos também remetem a ritos vitais, como o ato sexual e o tempero do vinho.
 \end{itemize}
 
 \subsubsection{Forças Cósmicas e o Motor Inteligente}
@@ -229,7 +227,7 @@ Este período marca a primeira tentativa estruturada de explicar a multiplicidad
 
 \subsubsection{Átomos e o Vazio}
 \begin{itemize}
-    \item \textbf{Constituintes Reais:} A matéria é fomrmada pelo pleno (o átomo), que é sólido e indivisível ("o que é"), e pelo Vazio, o espaço oco ou não-ente ("o que não é")
+    \item \textbf{Constituintes Reais:} A matéria é fomrmada pelo pleno (o átomo), que é sólido e indivisível (``o que é''), e pelo Vazio, o espaço oco ou não-ente (``o que não é'')
     \item \textbf{Realidade do Vazio:} Ao contrário dos eleatas, os atomistas defendiam que o Vazio é real, pois sem ele o movimento a compressão dos corpos seriam impossíveis.
 \end{itemize}
 \subsubsection{Principais Filósofos}
@@ -239,12 +237,12 @@ Este período marca a primeira tentativa estruturada de explicar a multiplicidad
 \end{itemize}
 \subsubsection{Mecânica das Mudanças}
 \begin{itemize}
-    \item \textbf{Rearranjos Cinéticos:} As mudanças que percebemos na natureza não são "nascimentos", mas meros rearranjos de partículas eternas que se chocam e se entrelaçam no vazio.
+    \item \textbf{Rearranjos Cinéticos:} As mudanças que percebemos na natureza não são ``nascimentos'', mas meros rearranjos de partículas eternas que se chocam e se entrelaçam no vazio.
     \item \textbf{Diferenças Atômicas:} Os átomos são qualitativamente iguais, diferindo apenasem três aspectos: forma (figura), arranjo (ordem) e posição.
 \end{itemize}
 \subsubsection{Analogia Alfabética Pedagógica}
 \begin{itemize}
-    \item \textbf{Letras e Átomos:} Demócrito e Aristóteles utilizaram a analogia do alfabeto para explicar a multiplicidade: assim como as mesmas letras podem formar uma "tragédia" ou uma "comédia", os mesmos átomos, em diferentes ordens e posições, formam todas as coisas do mundo.
+    \item \textbf{Letras e Átomos:} Demócrito e Aristóteles utilizaram a analogia do alfabeto para explicar a multiplicidade: assim como as mesmas letras podem formar uma ``tragédia'' ou uma ``comédia'', os mesmos átomos, em diferentes ordens e posições, formam todas as coisas do mundo.
 \end{itemize}
 \subsubsection{Oposição à Escola Eleática e Materialismo}
 \begin{itemize}
@@ -280,7 +278,7 @@ Este período marca a primeira tentativa estruturada de explicar a multiplicidad
 \end{itemize}
 \subsection{Alquimia e as Teorias dos Princípios Materiais}
 
-\lettrine[lines=3]{A} Alquimia Medieval e a transição para a Iatroquímica Renascentista representam um período em que a investigação da matéria uniu filosofia, misticismo e práticas laboratoriais experimentais.
+A alquimia medieval e a transição para a Iatroquímica Renascentista representam um período em que a investigação da matéria uniu filosofia, misticismo e práticas laboratoriais experimentais.
 
 \subsubsection{Concepções Experimentais e Princípios Abstratos}
 \begin{itemize}
@@ -301,7 +299,7 @@ Este período marca a primeira tentativa estruturada de explicar a multiplicidad
 \end{itemize}
 \subsubsection{Transmutação e o Ouro Perfeito}
 \begin{itemize}
-    \item \textbf{A Busca pela Perfeição:} A crença na transmutação baseava-se na ideia de que os metais eram "corruptíveis" e poderiam ser transformados no ouro - o metal perfeito - se as proporções de seus princípios internos fossem alteradas.
+    \item \textbf{A Busca pela Perfeição:} A crença na transmutação baseava-se na ideia de que os metais eram ``corruptíveis'' e poderiam ser transformados no ouro --- o metal perfeito --- se as proporções de seus princípios internos fossem alteradas.
     \item \textbf{Harmonia Interna:} As propriedades físicas dos metais não eram explicadas por estruturas atômicas, mas pelas proporções harmônicas e pela pureza de seus constituintes internos ocultos.
 \end{itemize}
 \subsubsection{Transição Epistemológica: Da Mística à Iatroquímica}
@@ -318,7 +316,7 @@ Este período marca a primeira tentativa estruturada de explicar a multiplicidad
     \item \textbf{René Descartes:} Concebeu a \textit{res extensa}, situando os corpos em um espaço geometrizado e homogêneo. Defendia que a matéria é infinitamente divisível e que o universo está pleno, movendo-se atra´ves de vórtices cósmicos (turbilhões) que transmitem movimento por contato.
     \item \textbf{Francis Bacon:} Principal expoente do empirismo condutivista, via a investigação da natureza como condição para o domínio do homem sobre ela.
     \item \textbf{Pierre Gassendi:} Sacerdote que promoveu a cristianização do atomismo antigo de Epicuro, argumentando que Deus é o criador e autor da força que regula os átomos.
-    \item \textbf{Robert Boyle:} Preferia o termo "corpúsculos" em vez de átomos, buscando conciliar a teoria coma prática química, onde propriedades como o odor dependiam do arranjo dessas partículas.
+    \item \textbf{Robert Boyle:} Preferia o termo ``corpúsculos'' em vez de átomos, buscando conciliar a teoria coma prática química, onde propriedades como o odor dependiam do arranjo dessas partículas.
 \end{itemize}
 \subsubsection{Rejeição da Escolástica e Matematização}
 \begin{itemize}
@@ -328,12 +326,12 @@ Este período marca a primeira tentativa estruturada de explicar a multiplicidad
 \subsubsection{Provas Físicas do Vácuo}
 \begin{itemize}
     \item \textbf{Evangelista Torricelli:} Inventou o barômetro e, através do experimento da coluna de mercúrio invertida, provou a existência do vácuo no topo do tubo, desafiando o dogma aristotético do \textit{horror vacui}.
-    \item \textbf{Blaise Pascal:} Corroborou essas descobertas com seus princípios hidrostáticos, distinguindo o vácuo físico (rarefação) do "nada" absoluto.
+    \item \textbf{Blaise Pascal:} Corroborou essas descobertas com seus princípios hidrostáticos, distinguindo o vácuo físico (rarefação) do ``nada'' absoluto.
 \end{itemize}
 \subsubsection{Debates Historiográficos}
 \begin{itemize}
-    \item \textbf{Steven Shapin:} Provocou o debate ao afirmar que "não existiu tal coisa como a Revolução Científica", questionando a ideia de um evento único e cataclísmico e forcando no contexto social e nas práticas humanas.
-    \item \textbf{Daniel Garber e a Reforma Protestante:} Garber propõe uma analogia onde a ciência do século XVII assemelha-se à Reforma Protestante. Assim como a Igreja Católica persistiu após a Reforma, a Filosofia Aristotélica coexistiu por muito tempo com as novas "seitas" teóricas (galileanos, cartesianos, baconianos), que lutavam tanto entre si quanto contra a ortodoxia.
+    \item \textbf{Steven Shapin:} Provocou o debate ao afirmar que ``não existiu tal coisa como a Revolução Científica'', questionando a ideia de um evento único e cataclísmico e forcando no contexto social e nas práticas humanas.
+    \item \textbf{Daniel Garber e a Reforma Protestante:} Garber propõe uma analogia onde a ciência do século XVII assemelha-se à Reforma Protestante. Assim como a Igreja Católica persistiu após a Reforma, a Filosofia Aristotélica coexistiu por muito tempo com as novas ``seitas'' teóricas (galileanos, cartesianos, baconianos), que lutavam tanto entre si quanto contra a ortodoxia.
 \end{itemize}
 
 \subsection{A Revolução Química e a Química Pneumática}
@@ -343,8 +341,8 @@ Este período marca a primeira tentativa estruturada de explicar a multiplicidad
 \subsubsection{O Estudo dos Gases (Ares) e o Fim do Flogisto}
 
 \begin{itemize}
-    \item \textbf{Diferentes Gases:} A atmosfera, antes vista como um único eleento, passou a ser compreendida como uma mistura de diferentes "ares" (gases). Esse entendimento consolidou-se graças ao trabalho de cientistas como Joseph Black, Joseph Priestley, Carl Scheele e Henry Cavendish. 
-    \item \textbf{O Fim do Flogisto:} Priestley isolou o "ar desflogisticado", que foi posteriormente identificado e renomeado por Antoine-Laurent Lavoisier como gás oxigênio, o que contribuiu para derrubar a antiga teoria do flogisto.
+    \item \textbf{Diferentes Gases:} A atmosfera, antes vista como um único eleento, passou a ser compreendida como uma mistura de diferentes ``ares'' (gases). Esse entendimento consolidou-se graças ao trabalho de cientistas como Joseph Black, Joseph Priestley, Carl Scheele e Henry Cavendish.
+    \item \textbf{O Fim do Flogisto:} Priestley isolou o ``ar desflogisticado'', que foi posteriormente identificado e renomeado por Antoine-Laurent Lavoisier como gás oxigênio, o que contribuiu para derrubar a antiga teoria do flogisto.
 \end{itemize}
 
 \subsubsection{O Casal Lavoisier e a Iconografia Científica}
@@ -354,7 +352,7 @@ Este período marca a primeira tentativa estruturada de explicar a multiplicidad
     \item \textbf{Equipamentos de Precisão:} A iconografia científica da época, como o retrato do casal feito por Jacques-Louis David em 1788, detalha o uso de instrumentos de ponta como o gasômetro e o eudiômetro nas pesquisas sobre gases. Marie-Anne também registrou visualmente experimentos clássicos sobre a respiração.
 \end{itemize}
 
-\subsubsection{O "Tratado Elementar de Química" (1789)}
+\subsubsection{O ``Tratado Elementar de Química'' (1789)}
 
 \begin{itemize}
     \item \textbf{Conceito de Elemento:} Lavoisier estabeleceu uma definição empírica de elemento químico como o limite extremo ao qual chega a análise, considerando substâncias simples aquelas que não podiam ser decompostas por nenhum método conhecido.
@@ -374,7 +372,7 @@ Este período marca a primeira tentativa estruturada de explicar a multiplicidad
 \subsubsection{Leis Ponderais (Relações de Massa)}
 
 \begin{itemize}
-    \item \textbf{Lei da Conversação da Massa de Lavoisier de 1789:} Em um sistema fechado, a massa total não varia. A soma das massas dos reagentes deve ser igual à soma das massas dos produtos ("na natureza, nada se cria ou se perde mas tudo se transforma").
+    \item \textbf{Lei da Conversação da Massa de Lavoisier de 1789:} Em um sistema fechado, a massa total não varia. A soma das massas dos reagentes deve ser igual à soma das massas dos produtos (``na natureza, nada se cria ou se perde mas tudo se transforma'').
     \item \textbf{Lei das Proporções Definidas de Proust de 1801:} A proporção em massa dos elementos em uma susbtância pura é constante, não importando sua origem.. Ela possibilita o cálculo da composição centesimal de um composto e fundamenta as análises estequiométricas.
     \item \textbf{Lei das Proporções Múltiplas de Dantol de 1803:} Quando dois elementos formam compostos diferentes, fixando-se a massa de um, as massas do outro variam em uma proporção de números inteiros pequenos.
     \item \textbf{Lei das Proporções Recíprocas ou dos Equivalentes de Richter de 1791:} Se duas massas de elementos diferentes reagem separadamente com uma massa fixa de um terceiro, ao reagirem entre si o farão na mesma proporção ou em uma razão de inteiros pequenos.
@@ -389,7 +387,7 @@ Este período marca a primeira tentativa estruturada de explicar a multiplicidad
 
 \begin{itemize}
     \item \textbf{A Origem da Teoria Atômica Clássica:} Essas leis foram deduzidas de forma puramente empírica antes de se conhecer as estruturas eletrônicas e ligações químicas.
-    \item \textbf{Conexão Matemática:} Ao tratar matematicamente os dados macroscópicos obtidos em balanças e laboratórios, John Dalton realizou a quantificação da teoria atômica. Ele atribuiu pesos atômicos relativos às "partículas últimas" (átomos), explicando por que a matéria combina-se em proporções fixas. Isso retirou o átomo do domínio de mera abstração filosófica e consolidou a química como uma ciência exata.
+    \item \textbf{Conexão Matemática:} Ao tratar matematicamente os dados macroscópicos obtidos em balanças e laboratórios, John Dalton realizou a quantificação da teoria atômica. Ele atribuiu pesos atômicos relativos às ``partículas últimas'' (átomos), explicando por que a matéria combina-se em proporções fixas. Isso retirou o átomo do domínio de mera abstração filosófica e consolidou a química como uma ciência exata.
 \end{itemize}
 
 \subsection{A Teoria Atômica de John Dalton}
@@ -398,7 +396,7 @@ Este período marca a primeira tentativa estruturada de explicar a multiplicidad
 
 \subsubsection{A Ressignificação do Átomo e a Unificação Científica}
 
-\begin{itemize}
+\begin{itemize}\raggedright%
     \item \textbf{Do Abstrato ao Concreto:} Dalton unificou a tradição filosófica corpuscular mecanicista (como as ideias de Newton e Boyle) com as evidências pragmáticas das leis ponderais de Lavoisier e Proust. Sob essa nova ótica, o átomo deixou de ser uma abstração intangível e ganhou massa atômica relativa, algo mensurável por meio de balanças de laboratório.
     \item \textbf{Origem nos Gases:} O modelo de Dalton nasceu diretamente de suas paixóes meteorológicas e do estudo prático da dinâmica atmosférica, misturas de gases e solubilidade gasosa em água, investigações que contaram com a colaboração de seu amigo William Henry.
 \end{itemize}
@@ -407,35 +405,35 @@ Este período marca a primeira tentativa estruturada de explicar a multiplicidad
 
 \begin{itemize}
     \item \textbf{John Dalton:} Cientista e meteorologista inglês de formação autodidata, famoso por registrar meticulosamente mais de 200 mil observações climáticas ao longo da vida.
-    \item \textbf{Thomas Thomson:} Químico escocês que ouviu a teoria de Dalton e publicou a primeira descrição impressa dela no livro \textit{System of Chemistry} (1807), utilizando a palavra "átomo" e os símbolos datonianos.
-    \item \textbf{William Hiigins:} Químico irlandês que propôs em 1789 um teoria rudimentar baseada em "partículas últimas". Anos depois, envolveu-se em uma controvérsia de prioridade intelectual, reivindicando para si a autoria da teoria atômica.
+    \item \textbf{Thomas Thomson:} Químico escocês que ouviu a teoria de Dalton e publicou a primeira descrição impressa dela no livro \textit{System of Chemistry} (1807), utilizando a palavra ``átomo'' e os símbolos datonianos.
+    \item \textbf{William Hiigins:} Químico irlandês que propôs em 1789 um teoria rudimentar baseada em ``partículas últimas''. Anos depois, envolveu-se em uma controvérsia de prioridade intelectual, reivindicando para si a autoria da teoria atômica.
 \end{itemize}
 
 \subsubsection{Postulados Físicos e Químicos}
 
 \begin{itemize}
-    \item \textbf{Lei das Pressões Parciais:} Formulada em 1801, postula que em uma mistura de gases, a pressão total é a soma das pressões individuais que cada gás exerceria se estivesse sozinho no espaço (ou seja, "cada gás se comporta como um vácuo para o outro").
+    \item \textbf{Lei das Pressões Parciais:} Formulada em 1801, postula que em uma mistura de gases, a pressão total é a soma das pressões individuais que cada gás exerceria se estivesse sozinho no espaço (ou seja, ``cada gás se comporta como um vácuo para o outro'').
     \item \textbf{Atmosfera de Calórico:} Dalton imaginava os átomos gasosos envolvidos por uma densa atmosfera de calórico repulsivo (o fluído de calor herdado de Lavoisier), suja repulsão mútua justificava a homogeneirdade e a expansão dos gases na atmosfera.
-    \item \textbf{Regra da Máxima Simplicidade:} Dalton adotou o pressuposto teórico arbitrário de que, se dois elementos formassem apenas um composto conhecido, a união de seus átomos ocorreria na proporção de 1 para 1. Isso levou a formular a água como "HO", gerando valores iniciais incorretos de massas atômicas.
+    \item \textbf{Regra da Máxima Simplicidade:} Dalton adotou o pressuposto teórico arbitrário de que, se dois elementos formassem apenas um composto conhecido, a união de seus átomos ocorreria na proporção de 1 para 1. Isso levou a formular a água como ``HO'', gerando valores iniciais incorretos de massas atômicas.
 \end{itemize}
 
 \subsubsection{Publicação, Notação e o Padrão Hidrogênio}
 
 \begin{itemize}
     \item \textbf \textit{A New System of Chemical Philosophy} (1808): Obra principal de Dalton onde ele apresentou formalmente as bases quantitativas de sua teoria.
-    \item \textbf{Notação Circular Pictórica:} Para fins didáticos e representavos, Dalton criou uma notação pictórica com símbolos circulares para representar os átomos dos seus elementos e seus "átomos compostos" (moléculas.)
+    \item \textbf{Notação Circular Pictórica:} Para fins didáticos e representavos, Dalton criou uma notação pictórica com símbolos circulares para representar os átomos dos seus elementos e seus ``átomos compostos'' (moléculas.)
     \item \textbf{O Padrão de Hidrogênio:} Para calcular a primeira escala de massas atômicas relativas, Dalton utilizou o átomo de hidrogênio como padrão básico unitário (massa = 1), comparando o peso de todos os outros elementos e substâncias em relação a ele.
 \end{itemize}
 
 \subsection{História dos Raios Catódicos}
 
-\lettrine[lines=3]{A}s investigações sobre os raios catódicos no século XIX abriram caminho para a descoberta do elétron, gerando intensos debates sobre a natureza ondulatória ou corpuscular dessas emissões.
+As investigações sobre os raios catódicos no século XIX abriram caminho para a descoberta do elétron, gerando intensos debates sobre a natureza ondulatória ou corpuscular dessas emissões.
 
 \subsubsection{Observações Inaugurais}
 
 \begin{itemize}
     \item \textbf{Primeiras Investigações:} Em 1835, Michael Faraday observou descargas elétricas luminosas e manchas fosforescentes em gases rarefeitos. Em 1857, Julius Plücker descobriu os raios catódicos ao notar luminescência verde fluorescente na parede do vidro de ampolas sob baixa pressão.
-    \item \textbf{Propagação retilínea:} Em 1858, Plücker percebeu que um ímã desviava essa luminescência. Em 1869, Johann Hittorf demonstrou que as emissões viajavam em linha reta ao projetar a sombra de um objeto colocado diante do cátodo, consolidando o conceito de "raios catódicos".
+    \item \textbf{Propagação retilínea:} Em 1858, Plücker percebeu que um ímã desviava essa luminescência. Em 1869, Johann Hittorf demonstrou que as emissões viajavam em linha reta ao projetar a sombra de um objeto colocado diante do cátodo, consolidando o conceito de ``raios catódicos''.
 \end{itemize}
 
 \subsubsection{A Experiência da Cruz de Malta}
@@ -481,8 +479,8 @@ Este período marca a primeira tentativa estruturada de explicar a multiplicidad
 \begin{itemize}
     \item Thomson determinou a velocidade $(v)$ das partículas aplicando simultaneamente um campo elétrico $(X)$ e um campo magnético $(H)$ de forma perpendicular e oposta.
     \item Ao ajustar os campos para que a força magnética $(H_{ev})$ equilibrasse perfeitamente a força elétrica $(X_e)$, o feixe de raios catódicos atravessava o tubo em linha reta, sem sofrer qualquer desvio. Sob essa condição de equilíbrio, a velocidade foi calculada de forma direta pela equação
-        
-    $$v=\frac{X}{H}$$
+
+    \[v=\frac{X}{H}\]
 
     \item Nos tubos sob vácuo extremo, essa velocidade mostrou-se surpreendentemente alta, atingindo até um terço da velocidade da luz.
 \end{itemize}
@@ -492,8 +490,8 @@ Este período marca a primeira tentativa estruturada de explicar a multiplicidad
 \begin{itemize}
     \item Tendo calculado a velocidade $(v)$, Thomson desligou o campo magnético e submeteu as partículas à ação exclusiva do campo elétrico $(X)$, provocando um desvio vertical $(d)$ análogo à trajetórica de queda de um projétil sob a gravidade.
     \item Medindo o deslocamento vertical $(d)$ do feixe ao colidir com a parede fluorescente do tubo, ele deduziu a razão carga-massa $(\frac{e}{m})$ através da seguinte equação, onde $l$ representa o comprimento das placas elétricas:
-        
-    $$\frac{e}{m}=\frac{2d\cdot v^2}{X\cdot l^2}$$   
+
+    \[\frac{e}{m}=\frac{2d\cdot v^2}{X\cdot l^2}\]
 
 \end{itemize}
 
@@ -511,11 +509,11 @@ Este período marca a primeira tentativa estruturada de explicar a multiplicidad
     \item Como o valor da carga elementar $(e)$ mostrou-se idêntico ao do hidrogênio $(E)$, Thomson concluiu que a gigantesca razão $\frac{e}{m}$ devia-se à extrema leveza da nova partícula, cuja massa $(m)$ correspondia a aproximadamente $\frac{1}{1700}$ da massa do átomo de hidrogênio (fontes modernas quantificam essa proporção em cerca de $\frac{1}{1840}$).
 \end{itemize}
 
-\subsubsection{De "Corpúsculos" a "Elétrons"}
+\subsubsection{De ``Corpúsculos'' a ``Elétrons''}
 
 \begin{itemize}
-    \item Fiel à sua visão materialista, Thomson chamou originalmente essas partículas subatômicas de "corpúsculos".
-    \item No entanto, o físico irlandês George Johnstone Stoney já havia proposto o termo "elétron" em 1891 para designar a unidade fundamental de carga elétrica teórica. Defendido por físicos proeminentes como George FitzGerald, Joseph Lamor e Henrick Lorentz para descerver a natureza da partícula de Thomson, o termo "elétron" consolidou-se universalmente por volta de 1910.
+    \item Fiel à sua visão materialista, Thomson chamou originalmente essas partículas subatômicas de ``corpúsculos''.
+    \item No entanto, o físico irlandês George Johnstone Stoney já havia proposto o termo ``elétron'' em 1891 para designar a unidade fundamental de carga elétrica teórica. Defendido por físicos proeminentes como George FitzGerald, Joseph Lamor e Henrick Lorentz para descerver a natureza da partícula de Thomson, o termo ``elétron'' consolidou-se universalmente por volta de 1910.
 \end{itemize}
 
 \subsection{Determinação da Carga Elementar e a Câmara de Nuvens}
@@ -556,7 +554,7 @@ Este período marca a primeira tentativa estruturada de explicar a multiplicidad
 
 \subsection{O Experimento da Gota de Óleo e a Quantização da Carga}
 
-\lettrine[lines=3]{O} Experimento da Gota de Óleo, realizado por Robert Millikan com a colaboração de Harvey Fletcher, resolveu um dos maiores desafios da física ao provar a natureza corpuscular e quantizada da eletricidade.
+O experimento da Gota de Óleo, realizado por Robert Millikan com a colaboração de Harvey Fletcher, resolveu um dos maiores desafios da física ao provar a natureza corpuscular e quantizada da eletricidade.
 
 \subsubsection{Substituição da Água por Óleo}
 
@@ -569,7 +567,7 @@ Este período marca a primeira tentativa estruturada de explicar a multiplicidad
 
 \begin{itemize}
     \item \textbf{Parceria Não Creditada:} O estudante de doutorado Harvey Fletcher teve um papel ativo na concepção da ideia do óleo, comprou o atomizador e montou o primeiro aparato funcional em apenas um dia.
-    \item \textbf{Acordo de Autoria:} Millikan, visando o prestígio acadêmico que culminaria no Prêmio Nobel de 1923, propôs um acordo de autoria: ele seria o único autor do artigo principal sobre a determinação da carga elementar $(e)$, enquanto Fletcher assinaria como autor único os artigos subsequentes sobre o movimento browniano como sua tese de doutorado. Esse acordo relegou Fletcher ao papel de colaborador invisível na publicação ais famosa do século XX.
+    \item \textbf{Acordo de Autoria:} Millikan, visando o prestígio acadêmico que culminaria no Prêmio Nobel de 1923, propôs um acordo de autoria: ele seria o único autor do artigo principal sobre a determinação da carga elementar $(e)$, enquanto Fletcher assinaria como autor único os artigos subsequentes sobre o movimento browniano como sua tese de doutorado. Esse acordo relegou Fletcher ao papel de colaborador invisível na publicação ais famosa do século XX.\@
 \end{itemize}
 
 \subsubsection{O Aparato Experimental}
@@ -629,12 +627,12 @@ Este período marca a primeira tentativa estruturada de explicar a multiplicidad
     \item \textbf{Uso de Filtros Protetores:} Para descartar a possibilidade de que vapores químicos gerados pelo sal estivessem sensibilizando a placa fotográfica, Becquerel realizou experimentos interpondo uma fina lâmina de alumínio (de 0,1 mm) ou uma delgada película de mica entre o cristal e o papel negro protetor. O surgimento das imagens mesmo com essas barreiras confirmou o alto poder de penetração da misteriosa radiação.
 \end{itemize}
 
-\subsubsection{O Equívoco da "Hiperfluorescência"}
+\subsubsection{O Equívoco da ``Hiperfluorescência''}
 
 \begin{itemize}
     \item \textbf{Violação de Stokes:} Becquerel e o físico inglês Silvanus Thompson acreditaram inicialmente que os compostos emitiam uma radiação invisível parecida com a luz ultravioleta. Como a emissão parecia surgir sem estímulo de alta energia, pensavam tratar-se de uma violação da Lei de Stokes (a qual estabelece que a radiação emitida na luminescência deve ter comprimento de onda maior do que a absorvida).
 
-    \item \textbf{Nomenclatura Inicial:} Thomson chamou o fenômeno de "hiperfosforescência", aceitando a ideia provisória de Becquerel de que se tratava de uma fosforescência invisível caapz de persistir no escuro por muito tempo.
+    \item \textbf{Nomenclatura Inicial:} Thomson chamou o fenômeno de ``hiperfosforescência'', aceitando a ideia provisória de Becquerel de que se tratava de uma fosforescência invisível caapz de persistir no escuro por muito tempo.
 \end{itemize}
 
 \subsubsection{Urânio Metálico e a Descoberta do Tório}
@@ -660,7 +658,7 @@ Este período marca a primeira tentativa estruturada de explicar a multiplicidad
 \begin{itemize}
     \item Experimentos realizados por Curie monstraram que o aquecimento, a iluminação e a irradiação por raios X não alteravam a intensidade da emissão do urânio.
 
-    \item Esses dados empíricos refutaram a hipótese de Becquerel e Thompson de que o fenômeno era uma "hiperfosforescência" invisível que dependia de excitação luminosa prévia.
+    \item Esses dados empíricos refutaram a hipótese de Becquerel e Thompson de que o fenômeno era uma ``hiperfosforescência'' invisível que dependia de excitação luminosa prévia.
 \end{itemize}
 
 \subsubsection{A Hipótese da Propriedade Atômica}
@@ -676,7 +674,7 @@ Este período marca a primeira tentativa estruturada de explicar a multiplicidad
 \begin{itemize}
     \item Ao testar minerais naturais, Curie identificou uma anomalia: a pechblenda e a calcolita natural eram muito mais ativas do que o urânio metálico puro, o que conflitava diretamente com a proporção esperada de urânio.
 
-    \item Para testar se a combinação química causava o aumento de atividade, Curie sintetizou calcolita artificial a partir de reagentes puros. A calcolita artificial apresentou atividade "normal" (menor que o urânio puro).
+    \item Para testar se a combinação química causava o aumento de atividade, Curie sintetizou calcolita artificial a partir de reagentes puros. A calcolita artificial apresentou atividade ``normal'' (menor que o urânio puro).
 
     \item Isso provou que a alta atividade dos minerais naturais não vinham de interações químicas, mas sim da presença oculta de elementos químicos desconhecidos e altamente radioativos na matriz mineral, guiando diretamente a descoberta do polônio e do rádio.
 \end{itemize}
@@ -686,7 +684,7 @@ Este período marca a primeira tentativa estruturada de explicar a multiplicidad
 \subsubsection{A Descoberta de Goldstein (1886)}
 
 \begin{itemize}
-    \item \textbf{A "Luz Positiva":} Eugen Goldstein observou que, ao realizar descargas elétricas em tubos contendo gases rarefeitos, um feixe brilhante de luz estendia-se para trás do cátodo através de pequenos orifícios (canais) nele perfurado.
+    \item \textbf{A ``Luz Positiva'':} Eugen Goldstein observou que, ao realizar descargas elétricas em tubos contendo gases rarefeitos, um feixe brilhante de luz estendia-se para trás do cátodo através de pequenos orifícios (canais) nele perfurado.
 
     \item \textbf{Propagação Inversa:} Ele demoninou essas emissões de raios canais (Kanalstrahlen), que se propagavam no sentido oposto ao dos elétrons (raios catódicos).
 \end{itemize}
@@ -694,12 +692,12 @@ Este período marca a primeira tentativa estruturada de explicar a multiplicidad
 \subsubsection{Diferenças Estruturais e Alta Inércia}
 
 \begin{itemize}
-    \item \textbf{Baixa Suscetibilidade Magnética:} Ao contrário dos levíssimos elétrons dos raios catódicos, que sofriam desvios sob qualquer campo magnético comum, os raios canais pareciam inicialmente imunes a ímãs ordinários. 
+    \item \textbf{Baixa Suscetibilidade Magnética:} Ao contrário dos levíssimos elétrons dos raios catódicos, que sofriam desvios sob qualquer campo magnético comum, os raios canais pareciam inicialmente imunes a ímãs ordinários.
 
     \item \textbf{Grande Massa:} Essa resistência devido à sua altíssima inércia e baixa razão carga-massa $(\frac{e}{m})$, uma vez que eram constituídos por íons atômicos muito mais pesados (o mais leve deles, o íon de hidrogênio, é cerca de 1850 vezes mais massivo que o elétron).
 \end{itemize}
 
-\subsubsection{Os Experimentos de Willy Wien (1897-1898)}
+\subsubsection{Os Experimentos de Willy Wien (1897--1898)}
 
 \begin{itemize}
     \item \textbf{Campos Cruzados Potentes:} Para forçar a deflexão das partículas, Willy Wien projetou um aparato especial com blindagem de ferro e aplicou um campo magnético muito forte (de 3250 CGS) cruzado perpendicularmente com placas de deflexão elétrica.
@@ -727,7 +725,7 @@ Este período marca a primeira tentativa estruturada de explicar a multiplicidad
 
 \subsubsection{A Anomalia de Geiger e Marsden}
 
-\begin{itemize}
+\begin{itemize}\raggedright%
     \item \textbf{Ricochete Inesperado:} Nos experimentos clássicos de espalhamento em folhas metálicas delgadas, Hans Geiger e Ernest Marsden constataram um comportamento extraordinário: uma fração muito pequena das partículas $\alpha$ incidentes (cerca de 1 em 20.000) sofria desvios monumentais ao colidir com uma fina lâmina de ouro ($6\times 10^{-5}$ cm de espessura), sendo ricocheteada para trás em ângulos obtusos maiores que 90 graus.
 
     \item \textbf{Surpresa de Rutherford:} O desvio era tão violento que Rutherford observou que, para desviar uma partícula $\alpha$ tão veloz por mios magnéticos corriqueiros, seria necessário um campo magnético colossal de $10^9$ unidades absolutas.
@@ -807,7 +805,7 @@ Este período marca a primeira tentativa estruturada de explicar a multiplicidad
 
 \subsection{Introdução Histórica à Física Quântica: do Modelo Atômico de Bohr ao Modelo Atômico Quântico}
 
-\subsubsection{Crise na Física Clássica e Origem da Teoria Quântica}
+\subsection{Crise na Física Clássica e Origem da Teoria Quântica}
 
 \subsubsection{O Problema da Radiação Térmica, o Equilíbrio de Cavidades e a Formulação de Corpo Negro por Kirchhoff}
 
@@ -815,7 +813,7 @@ No último terço do século XIX, a física parecia atingir uma maturidade conce
 
 O ponto de partida para essa investigação remonta ao trabalho do físico alemão Gustav Robert Kirchhoff que, entre 1859 e 1860, introduziu o conceito idealizado de corpo negro. Um corpo negro é definido como um sistema físico ideal que absorve integralmente toda a radiação eletromagnética nele incidente, independetemente do comprimento de onda $\lambda$, da frequência $\nu$ ou da direção de incidência; nenhuma fração da radiação é refletida ou transmitida ($A(v,T)=1$, onde $A$ é a absortividade adimensional). Em ocorrência do princípio do equilíbrio termodinâmico, Kirchhoff provou o teorema segundo o qual um corpo que é um absorvedor perfeito deve ser também um emissor perfeito. Para qualquer corpo em equilíbrio térmico à temperatura absoluta $T$, a razão entre a sua emissividade espectral $E(\nu,T)$ (potência emitida por unidade de área e por unidade de frequência) e sua absortividade espectral $A(\nu,T)$ é uma fração universal $I(\nu,T)$, que depende exclusivamente da frequência da radiação e da temperatura absoluta, sendo rigorosamente independente da forma, do tamanho ou da composição química do material:
 
-$$\frac{E(\nu,T)}{A(\nu,T)}=I(\nu,T)$$
+\[\frac{E(\nu,T)}{A(\nu,T)}=I(\nu,T)\]
 
 Para um corpo negro, como $A(\nu,T)=1$, a emissividade espectral coincide exatamente com essa função universal $I(\nu,T)$.
 
@@ -825,55 +823,55 @@ A descrição macroscópica dessa radiação de cavidade foi desenvolvida inicia
 
 Para derivar a lei de Stefan-Boltzmann, considera-se a radiação contida num volume $V$ de uma cavidade à temperatura $T$. A teoria eletromagnética de Maxwell estabelece que uma radiação isotrópica e homogênea exerce sobre as paredes de cavidade uma pressão de radiação $P$ dada por:
 
-$$P=\frac{1}{3}u(T)$$
+\[P=\frac{1}{3}u(T)\]
 
 onde $u(T)$ é a densidade de energia volumétrica total ($J\cdot m^{-3}$). Aplicando a Primeira Lei da Termodinâmica para um processo reversível:
 
-$$dQ=dU + PdV$$
+\[dQ=dU + PdV\]
 
 onde a energia interna total é $U(T,V)=u(T)V$. Substituindo a enegia interna e a pressão da radiação:
 
-$$dQ=d(uV)+\frac{1}{3}udV=(udV+Vdu)+\frac{1}{3}udV=\frac{4}{3}udV+V\frac{du}{dT}dT$$
+\[dQ=d(uV)+\frac{1}{3}udV=(udV+Vdu)+\frac{1}{3}udV=\frac{4}{3}udV+V\frac{du}{dT}dT\]
 
 A variação de entropia $dS$ é dada por:
 
-$$dS=\frac{dQ}{T}=\frac{4}{3}\frac{u(T)}{T}dV+\frac{V}{T}\frac{du}{dT}dT$$
+\[dS=\frac{dQ}{T}=\frac{4}{3}\frac{u(T)}{T}dV+\frac{V}{T}\frac{du}{dT}dT\]
 
-Como a entropia $S(T,V)$ é uma função de estado, sua diferencial $dS$ é exata. Aplicando o teorema de Euler para a igualdade das derivadas parciais cruzadas ($\frac{\partial^2S}{\partialT\partialV}=\frac{\partial^2S}{\partial V\partial T}$):
+Como a entropia $S(T,V)$ é uma função de estado, sua diferencial $dS$ é exata. Aplicando o teorema de Euler para a igualdade das derivadas parciais cruzadas ($\frac{\partial^2S}{\partial T\partial V}=\frac{\partial^2S}{\partial V\partial T}$):
 
-$$\frac{\partial}{\partial T}\left(\frac{4}{3}\frac{u}{T}\right)=\frac{\partial}{\partial V}\left(\frac{V}{T}\frac{du}{dT}\right)$$
+\[\frac{\partial}{\partial T}\left(\frac{4}{3}\frac{u}{T}\right)=\frac{\partial}{\partial V}\left(\frac{V}{T}\frac{du}{dT}\right)\]
 
 Desenvolvendo ambos os lados:
 
-$$\frac{4}{3}\left(\frac{1}{T}\frac{du}{dT}-\frac{u}{T^2}\right)=\frac{1}{T}\frac{du}{dT}$$
+\[\frac{4}{3}\left(\frac{1}{T}\frac{du}{dT}-\frac{u}{T^2}\right)=\frac{1}{T}\frac{du}{dT}\]
 
-$$\frac{4}{3T}\frac{du}{dT}-\frac{4u}{3T^2}=\frac{1}{T}\frac{du}{dT}\Longrightarrow \frac{1}{3T}\frac{du}{dT}=\frac{4u}{3T^2}$$
+\[\frac{4}{3T}\frac{du}{dT}-\frac{4u}{3T^2}=\frac{1}{T}\frac{du}{dT}\Longrightarrow \frac{1}{3T}\frac{du}{dT}=\frac{4u}{3T^2}\]
 
 Cancelando os fatores comuns e reordenando os termos:
 
-$$\frac{du}{u}=4\frac{dT}{T}$$
+\[\frac{du}{u}=4\frac{dT}{T}\]
 
 Integrando ambos os lados:
 
-$$\ln u=4\ln T+C\Longrightarrow u(T)=aT^4$$
+\[\ln u=4\ln T+C\Longrightarrow u(T)=aT^4\]
 
-onde $a$ é uma constante universal dada por $a=7,5657\times 10^16$ J$\cdot$m$^{-3\cdot}$ K$^{-4}$. A emitância radiante total $R_T$ (potência total emitida por unidade de área de um corpo negro) relaciona-se com $u(T)$ pela relação geométrica de fluxo isotrópico $R_T=\frac{c}{4}u(T)=\sigma T^4$, onde $\sigma=5,6704\times 10^{-8}$ W$\cot$ m$^{-2}\cdot$ K$^{-4}$ é a constante de Stefan-Boltzmann.
+onde $a$ é uma constante universal dada por $a=7,5657\times 10^{-16}\,\mathrm{J\,m^{-3}\,K^{-4}}$. A emitância radiante total $R_T$ (potência total emitida por unidade de área de um corpo negro) relaciona-se com $u(T)$ pela relação geométrica de fluxo isotrópico $R_T=\frac{c}{4}u(T)=\sigma T^4$, onde $\sigma=5,6704\times 10^{-8}\,\mathrm{W\,m^{-2}\,K^{-4}}$ é a constante de Stefan-Boltzmann.
 
 Em 1893, Wilhelm Wien avançou na análise termodinâmica ao considerar o efeito Doppler sofrido pelas ondas eletromagnéticas refletidas pelas paredes de uma cavidade em expansão adiabática lenta. Wien demonstrou a chamada Lei do Deslocamento de Wien, que estabelece que a densidade espectral de energia por unidade de frequência $\rho(\nu,T)$ deve ter a forma funcional:
 
-$$\rho(\nu,T)=\nu^3f\left(\frac{\nu}{T}\right)$$
+\[\rho(\nu,T)=\nu^3f\left(\frac{\nu}{T}\right)\]
 
 ou, de forma equivalente em termos de comprimento de onda $\lambda$ (utilizando $|\rho(\lambda,T)d\lambda|=|\rho(\nu,T)d\nu|$ com $\nu=\frac{c}{\lambda}$):
 
-$$\rho(\lambda,T)=\lambda^{-5}g(\lambda T)$$
+\[\rho(\lambda,T)=\lambda^{-5}g(\lambda T)\]
 
-Uma consequência direta dessa lei é que o comprimento de onda $\lamda_{\text{máx}}$ no qual a densidade espectral de energia atinge seu valor máximo é inversamente proporcional à temperatura absoluta do corpo negro:
+Uma consequência direta dessa lei é que o comprimento de onda $\lambda_{\text{máx}}$ no qual a densidade espectral de energia atinge seu valor máximo é inversamente proporcional à temperatura absoluta do corpo negro:
 
-$$\lamda_{\text{máx}}T=b$$
+\[\lambda_{\text{máx}}T=b\]
 
 onde $b\approx 2,8977\times10^{-3}$ m$\cdot$K é a constante de deslocamento de Wien. Em 1896, utilizando hipóteses arbritrárias sobre a distribuição de energia dos osciladores atômicos, Wien propôs uma fórmula empírica para a densidade espectral de radiação:
 
-$$\rho(\nu,T)=A\nu^3e^{\frac{-\beta\nu}{T}}$$
+\[\rho(\nu,T)=A\nu^3e^{\frac{-\beta\nu}{T}}\]
 
 onde $A$ e $\beta$ são constantes ajustáveis. A distribuição de Wien ajustava-se com precisão notável aos dados experimentais no regime de altas frequências (comprimentos de onda curtos na região do visível e ultravioleta), obtidos por Friedrich Paschen.
 
@@ -885,106 +883,225 @@ A abordagem de Rayleigh e Jeans baseou-se em calcular o número de modos normais
 
 As ondas eletromagnéticas estacionárias na cavidade com paredes perfeitamente condutoras devem satisfazer as condições de contorno onde o campo elétrico tangencial se anula nas paredes. Isso restringe os vetores de onda $k=(k_x,k_y,k_z)$ a valores discretos:
 
-$$k_x=\frac{n_x\pi}{L},k_y=\frac{n_y\pi}{L},k_z=\frac{n_z\pi}{L}$$
+\[k_x=\frac{n_x\pi}{L},k_y=\frac{n_y\pi}{L},k_z=\frac{n_z\pi}{L}\]
 
-onde $n_x,n_y$ e $n_z$ são inteiros positivos (1, 2, 3...). O módulo do vetor de onda relaciona-se com a frequência $\nu$ por $k=|k|=\frac{2\pi\nu}{c}$.
+onde $n_x,n_y$ e $n_z$ são inteiros positivos (1, 2, 3, \ldots). O módulo do vetor de onda relaciona-se com a frequência $\nu$ por $k=|k|=\frac{2\pi\nu}{c}$.
 
 No espaço cartesiano tridimensional cujos eixos são $(n_x,n_y,n_z)$, cada ponto de coordenadas inteiras positivas representa um modo de vibração possível. O número de modos $N(k)dk$ com módulo do vetor de onda entre $k$ e $k+dk$ corresponde ao volume de uma casca esférica de raio $n=\frac{Lk}{\pi}$ e espessura $dn=\frac{Ldk}{\pi}$, restrito ao octante positivo $(n_x>0,n_y>0,n_z>0)$:
 
-$$N(k)dk=2\times\frac{1}{8}\times (2\pi n^2dn)=\pi\left(\frac{Lk}{\pi}\right)^2\left(\frac{Ldk}{\pi}\right)=\frac{L^3\pi k^2dk}{\pi^3}=\frac{Vk^2dk}{\pi^2}$$
+\[N(k)dk=2\times\frac{1}{8}\times (2\pi n^2dn)=\pi{\left(\frac{Lk}{\pi}\right)}^2\left(\frac{Ldk}{\pi}\right)=\frac{L^3\pi k^2dk}{\pi^3}=\frac{Vk^2dk}{\pi^2}\]
 
 O fator 2 inicial é inserido para contabilizar os dois estados de polarização transversais independentes para cada onda eletromagnética. Expressando o número de modos por unidade de volume $g(\nu)d\nu$ em termos de frequência $\nu$, sabendo que $k=\frac{2\pi\nu}{c}$ e $dk=\frac{2\pi}{c}d\nu$.
 
-$$g(\nu)d\nu=\frac{N(\nu)d\nu}{V}=\frac{1}{\pi^2}\left(\frac{2\pi\nu}{c}\right)^2\left(\frac{2\pi}{c}d\nu\right)=\frac{8\pi\nu^2}{c^3}d\nu$$
+\[g(\nu)d\nu=\frac{N(\nu)d\nu}{V}=\frac{1}{\pi^2}{\left(\frac{2\pi\nu}{c}\right)}^2\left(\frac{2\pi}{c}d\nu\right)=\frac{8\pi\nu^2}{c^3}d\nu\]
 
 A grandeza $g(\nu)=\frac{8\pi\nu^2}{c^3}$ representa a densidade espacial de modos de vibração por unidade de frequência de cavidade.
 
 De acordo com a mecânica estatística clássica, a energia de cada modo de vibração do campo eletromagnético (que se comporta como um oscilador harmônico simples com dois graus de liberdade quadráticos: energia elétrica e energia magnética) é regida pelo teorema da equipartição da energia. A energia média $\bar{\epsilon}$ de cada modo em equilíbrio térmico à temperatura $T$ é dada por:
 
-$$$\bar{\epsilon}$=k_BT$$
+\[\bar{\epsilon}=k_B T\]
 
-onde $k_B=1,3806\times10^{-23}$ K$\cdot$ K$^{-1}$ é a constante de Boltzmann. Multiplicando a densidade de modos $g(\nu)$ pela energia média de cada modo $\bar{\epsilon}$, obtém-se a Lei de Radiação de Rayleigh-Jeans:
+onde $k_B=1,3806\times10^{-23}\,\mathrm{J\,K^{-1}}$ é a constante de Boltzmann.
 
-$$\rho(\nu,T)=g(\nu)\bar{\epsilon}=\frac{8\ppi\nu^2}{c^3}k+BT$$
+\[\rho(\nu,T)=g(\nu)\bar{\epsilon}=\frac{8\pi\nu^2}{c^3}k_B T\]
 
-Em termos de comprimento de onda $\lambda$, utilizando $\rho(\lambda,T)=\rho(\nu,T)\left|\frac{d\nu}{d\lambda}\right|$ com $\nu=\frac{\nu}{\lambda}$ e $\left|\frac{d\nu}{d\lambda}\right|=\frac{c}{\lambda^2}$:
+Em termos de comprimento de onda $\lambda$, utilizando $\rho(\lambda,T)=\rho(\nu,T)\left|\frac{d\nu}{d\lambda}\right|$ com $\nu=\frac{c}{\lambda}$ e $\left|\frac{d\nu}{d\lambda}\right|=\frac{c}{\lambda^2}$:
 
-$$\rho(\lambda,T)=\frac{8\pi\right(\frac{c}{\lambda}\left)^2}{c^3}k_BT\left(\frac{c}{\lambda^2}\right)=\frac{8\pi k_BT}{\lambda^4}$$
+\[\rho(\lambda,T)=\frac{8\pi{\left(\frac{c}{\lambda}\right)}^2}{c^3}k_B T\left(\frac{c}{\lambda^2}\right)=\frac{8\pi k_B T}{\lambda^4}\]
 
 A Lei de Rayleigh-Jeans representava o resultado rigoroso e inescapável da física clássica. Contudo, ela revelou uma falha conceitual catastrófica. Quando calcula-se a densidade de energia volumétrica total $u(T)$ integrando $\rho(\nu,T)$ sobre todas as frequências de 0 a $\infty$:
 
-$$u(T)=\int_{0}^{\infty}\rho(\nu,T)d\nu=\frac{8\pi k_BT}{c^3}\int_{0}^{\infty}\nu^2d\nu\longrightarrow\infty$$
+\[u(T)=\int_{0}^{\infty}\rho(\nu,T)d\nu=\frac{8\pi k_B T}{c^3}\int_{0}^{\infty}\nu^2d\nu\longrightarrow\infty\]
 
 A integral diverge para o infinito. Esse resultado absurso, denominado pelo físico austríaco Paul Ehrenfest de Catástrofe do Ultravioleta, implicava que qualquer cordo a uma temperatura acima do zero absoluto deveria emitir instantaneamente uma quantidade infinita de energia na forma de radiação de altas frequências (ultravioleta, raios X e raiox $\gamma$), o que tornaria a existência da matéria e do equilíbrio térmico impossíveis.
 
-As medições experimentais de alta precisão efetuadas em Charlottenburg por Otto Lummer, Ernst Pringsheim, Heinrich Rubens e Ferdinand Kurlbaum (1899-1900) na região do infravermelho distante confirmaram que, embora a lei de Rayleigh-Jeans funcionasse bem para frequências muito baixas ($\nu\longrightarrow0$), a curva experimental atingia um ponto máximo e caía exponencialmente para zero em frequências elevadas ($\nu\longrightarrow\infty$), acommpanhando a curva de Wien. A física clássica havia atingido um impasse intransponível.
+As medições experimentais de alta precisão efetuadas em Charlottenburg por Otto Lummer, Ernst Pringsheim, Heinrich Rubens e Ferdinand Kurlbaum (1899--1900) na região do infravermelho distante confirmaram que, embora a lei de Rayleigh-Jeans funcionasse bem para frequências muito baixas ($\nu\longrightarrow0$), a curva experimental atingia um ponto máximo e caía exponencialmente para zero em frequências elevadas ($\nu\longrightarrow\infty$), acommpanhando a curva de Wien. A física clássica havia atingido um impasse intransponível.
 
 \subsubsection{A Revolução de Planck e a Quantização da Ação}
 
 Em 19 de outubro de 1900, em uma reunião da Sociedade Alemã de Física, Max Karl Ludwig Planck apresentou uma solução para o problema da radiação de corpo negro. Inicialmente, Planck trabalhou na relação termodinâmica entre a entropia $S$ e a energia média $\bar{\epsilon}$ de um oscilador harmônico ideal carregado (ressonador de Hertz) situado nas paredes da cavidade. Planck havia provado anteriormente que a densidade espectral de radiação em equilíbrio $\rho(\nu,T)$ relaciona-se com a energia média do oscilador $\bar{\epsilon}(\nu,T)$ por:
 
-$$\rho(\nu, T) = \frac{8\pi \nu^2}{c^3} \bar{\epsilon}(\nu, T)$$
+\[\rho(\nu, T) = \frac{8\pi \nu^2}{c^3} \bar{\epsilon}(\nu, T)\]
 
-Analisando a segunda derivada da entropia do oscilador em relação à sua energia, $R = \left( \frac{d^2 S}{d\bar{\epsilon}^2} \right)^{-1}$, Planck percebeu que a lei empírica de Wien (válida em altas frequências) implicava $R \propto \bar{\epsilon}$ enquando os dados de Lummer, Pringsheim, Rubens e Kurlbaum para baixas frequências exigiam $R \propto \bar{\epsilon}^2$. Em um ato de intuição matemática, Planck propôs a interpolação mais simples entre os dois regimes:
+Analisando a segunda derivada da entropia do oscilador em relação à sua energia, $R = {\left( \frac{d^2 S}{d\bar{\epsilon}^2} \right)}^{-1}$, Planck percebeu que a lei empírica de Wien (válida em altas frequências) implicava $R \propto \bar{\epsilon}$ enquando os dados de Lummer, Pringsheim, Rubens e Kurlbaum para baixas frequências exigiam $R \propto \bar{\epsilon}^2$. Em um ato de intuição matemática, Planck propôs a interpolação mais simples entre os dois regimes:
 
-$$\frac{d^2 S}{d\bar{\epsilon}^2} = -\frac{k_B}{\bar{\epsilon}(h\nu + \bar{\epsilon})}$$
+\[\frac{d^2 S}{d\bar{\epsilon}^2} = -\frac{k_B}{\bar{\epsilon}(h\nu + \bar{\epsilon})}\]
 
 onde $h$ e $k_B$ são constantes universais. Integrando essa equação em relação a $\bar{\epsilon}$ e utilizando a relação termodinâmica $\frac{dS}{d\bar{\epsilon}} = \frac{1}{T}$, obtém-se a energia média do oscilador:
 
-$$\bar{\epsilon}(\nu, T) = \frac{h\nu}{e^{\frac{h\nu}{k_B T}} - 1}$$
+\[\bar{\epsilon}(\nu, T) = \frac{h\nu}{e^{\frac{h\nu}{k_B T}} - 1}\]
 
 Multiplicando a energia média pela densidade espacial de modos $g(\nu) = \frac{8\pi \nu^2}{c^3}$, Planck obteve a celebre Fórmula da Radiação de Planck:
 
-$$\rho(\nu, T) = \frac{8\pi h \nu^3}{c^3} \frac{1}{e^{\frac{h\nu}{k_B T}} - 1}$$
+\[\rho(\nu, T) = \frac{8\pi h \nu^3}{c^3} \frac{1}{e^{\frac{h\nu}{k_B T}} - 1}\]
 
 Em termos de comprimento de onda $\lambda$, a distribuição espectral assume a forma:
 
-$$\rho(\lambda, T) = \frac{8\pi h c}{\lambda^5} \frac{1}{e^{\frac{hc}{\lambda k_B T}} - 1}$$
+\[\rho(\lambda, T) = \frac{8\pi h c}{\lambda^5} \frac{1}{e^{\frac{hc}{\lambda k_B T}} - 1}\]
 
 Nas seguintes semanas, Planck buscou uma fundamentação física profunda para a sua equação interpolar. Em 14 de dezembro de 1900, em uma comunicação histórica à Sociedade Alemã de Física (considerada o nascimento da Física Quântica), Planck apresentou a dedução baseada na interpretação estatística de entropia de Ludwig Boltzmann ($S=k_B\ln W$).
 
-Para calcular o número de estados microscópicos $W$ (o número de "complexos"), Planck assumiu que a energia total $E_N = N \bar{\epsilon}$ de um conjunto de $N$ osciladores de frequência $\nu$ não era uma quantidade continuamente divisível, mas composta por um número finito $P$ de subunidades discretas, indivisíveis e de tamanho fixo, denominadas quanta de energia:
+Para calcular o número de estados microscópicos $W$ (o número de ``complexos''), Planck assumiu que a energia total $E_N = N \bar{\epsilon}$ de um conjunto de $N$ osciladores de frequência $\nu$ não era uma quantidade continuamente divisível, mas composta por um número finito $P$ de subunidades discretas, indivisíveis e de tamanho fixo, denominadas quanta de energia:
 
-$$\epsilon = h\nu$$
+\[\epsilon = h\nu\]
 
 onde $h$ é a constante universal de ação de Planck. O número de maneiras $W$ de distribuir $P$ quanta de energia indistinguíveis entre $N$ osciladores distinguíveis é dado pela combinação com repetição:
 
-$$W = \frac{(N + P - 1)!}{P! (N - 1)!} \approx \frac{(N + P)!}{P! N!}$$
+\[W = \frac{(N + P - 1)!}{P! (N - 1)!} \approx \frac{(N + P)!}{P! N!}\]
 
 Aplicando a aproximação de Stirling para grandes números ($\ln(x!) \approx x \ln x - x$):
 
-$$\ln W \approx (N + P) \ln(N + P) - P \ln P - N \ln N$$
+\[\ln W \approx (N + P) \ln(N + P) - P \ln P - N \ln N\]
 
 Substituindo $P = \frac{N \bar{\epsilon}}{h\nu}$ na expressão de $\ln W$ e aplicando a equação de Boltzmann para a entropia do sistema de $N$ osciladores $S_N = k_B \ln W$:
 
-$$S_N = k_B N \left[ \left(1 + \frac{\bar{\epsilon}}{h\nu}\right) \ln\left(1 + \frac{\bar{\epsilon}}{h\nu}\right) - \frac{\bar{\epsilon}}{h\nu} \ln\left(\frac{\bar{\epsilon}}{h\nu}\right) \right]$$
+\[S_N = k_B N \left[ \left(1 + \frac{\bar{\epsilon}}{h\nu}\right) \ln\left(1 + \frac{\bar{\epsilon}}{h\nu}\right) - \frac{\bar{\epsilon}}{h\nu} \ln\left(\frac{\bar{\epsilon}}{h\nu}\right) \right]\]
 
 A entropia de um único oscilador é $S = \frac{S_N}{N}$. Diferenciando $S$ em relação a $\bar{\epsilon}$ para encontrar a temperatura $T$:
 
-$$\frac{dS}{d\bar{\epsilon}} = \frac{1}{T} = k_B \left[ \frac{1}{h\nu} \ln\left(1 + \frac{\bar{\epsilon}}{h\nu}\right) + \frac{1}{h\nu} - \frac{1}{h\nu} \ln\left(\frac{\bar{\epsilon}}{h\nu}\right) - \frac{1}{h\nu} \right] = \frac{k_B}{h\nu} \ln\left(1 + \frac{h\nu}{\bar{\epsilon}}\right)$$$$e^{\frac{h\nu}{k_B T}} = 1 + \frac{h\nu}{\bar{\epsilon}} \implies \bar{\epsilon}(\nu, T) = \frac{h\nu}{e^{\frac{h\nu}{k_B T}} - 1}$$
+\[\frac{dS}{d\bar{\epsilon}} = \frac{1}{T} = k_B \left[ \frac{1}{h\nu} \ln\left(1 + \frac{\bar{\epsilon}}{h\nu}\right) + \frac{1}{h\nu} - \frac{1}{h\nu} \ln\left(\frac{\bar{\epsilon}}{h\nu}\right) - \frac{1}{h\nu} \right] = \frac{k_B}{h\nu} \ln\left(1 + \frac{h\nu}{\bar{\epsilon}}\right)\]
+
+\[e^{\frac{h\nu}{k_B T}} = 1 + \frac{h\nu}{\bar{\epsilon}} \implies \bar{\epsilon}(\nu, T) = \frac{h\nu}{e^{\frac{h\nu}{k_B T}} - 1}\]
 
 A hipótese de quantização da troca de energia eliminou a catástrofe do ultravioleta. O comportamento assintótico da fórmula de Planck reconcilia as duas leis anteriores:
 
 \begin{itemize}
     \item \textbf{Limite de Baixas Frequências/Altas Frequências ($h\nu \ll k_B T$):} Aproximando a função exponencial por expansão em série de Taylor ($e^x \approx 1 + x + \dots$ para $x \ll 1$):
-    
-    $$e^{\frac{h\nu}{k_B T}} - 1 \approx \left(1 + \frac{h\nu}{k_B T}\right) - 1 = \frac{h\nu}{k_B T}$$ $$\rho(\nu, T) \approx \frac{8\pi h \nu^3}{c^3} \frac{1}{\left(\frac{h\nu}{k_B T}\right)} = \frac{8\pi \nu^2}{c^3} k_B T$$
-    
+
+    \[e^{\frac{h\nu}{k_B T}} - 1 \approx \left(1 + \frac{h\nu}{k_B T}\right) - 1 = \frac{h\nu}{k_B T}\] \[\rho(\nu, T) \approx \frac{8\pi h \nu^3}{c^3} \frac{1}{\left(\frac{h\nu}{k_B T}\right)} = \frac{8\pi \nu^2}{c^3} k_B T\]
+
     Recupera-se rigorosamente a Lei de Rayleigh-Jeans.
 
     \item \textbf{Limite de Altas Frequências/Baixas Frequências ($h\nu \gg k_B T$):} Como $\frac{h\nu}{k_B T} \gg 1$, o termo exponencial domina o denominador ($e^{\frac{h\nu}{k_B T}} - 1 \approx e^{\frac{h\nu}{k_B T}}$):
-    
-    $$\rho(\nu, T) \approx \frac{8\pi h \nu^3}{c^3} e^{-\frac{h\nu}{k_B T}}$$
-    
+
+    \[\rho(\nu, T) \approx \frac{8\pi h \nu^3}{c^3} e^{-\frac{h\nu}{k_B T}}\]
+
     Recupera-se a Lei de Distribuição de Wien (identificando $A = \frac{8\pi h}{c^3}$ e $\beta = \frac{h}{k_B}$).
 
 \end{itemize}
 
-\subsubsection{O "Annus Mirabilis" de Einstein, a Hipótese do Fóton e o Efeito Fotoelétrico}
+A partir do ajuste de sua fórmula aos dados experimentais da radiação de corpo negro, Planck foi capaz de calcular com precisão inédita não apenas a constante de ação $h$, mas também outras constantes fundamentais da natureza:
+
+\begin{itemize}
+    \item \textbf{Constante de Planck $(h)$:} $h \approx 6,55 \times 10^{-27} \text{ erg}\cdot\text{s} = 6,55 \times 10^{-34} \text{ J}\cdot\text{s}$ (valor moderno: $6,62607 \times 10^{-34} \text{ J}\cdot\text{s}$).
+
+    \item \textbf{Constante de Boltzmann $(k_B)$:} $k_B \approx 1,346 \times 10^{-16} \text{ erg/K} = 1,346 \times 10^{-23} \text{ J/K}$.
+
+    \item \textbf{Número de Avogadro $(N_A)$:} Relacionando $k_B$ com a constante universal dos gases perfeitos $R$ ($N_A = R/k_B$), Planck obteve $N_A \approx 6,17 \times 10^{23} \text{ mol}^{-1}$ (valor moderno: $6,02214 \times 10^{23} \text{ mol}$).
+
+    \item \textbf{Carga Elementar $(e)$:} Conhecendo a constante de Faraday $F = N_A e$, Planck deduziu $e \approx 4,69 \times 10^{-10} \text{ u.e.s.} = 1,56 \times 10^{-19} \text{ C}$, antecipando com precisão os experimentos diretos de gotas de óleo de Millikan.
+\end{itemize}
+
+\subsubsection{O ``Annus Mirabilis'' de Einstein, a Hipótese do Fóton e o Efeito Fotoelétrico}
+
+O ano de 1905 ficou conhecido na ciência como o Annus Mirabilis (Ano Miraculoso) de Albert Einstein. Trabalhando como técnico de terceira classe no Departamento de Patentes de Berna, na Suíça, Einstein publicou no volume 17 do periódico Annalen der Physik quatro artigos revolucionários que redefiniram as bases da física teórica. Em março de 1905, no primeiro desses artigos ("Sobre um ponto de vista heurístico relativo à produção e transformação da luz"), Einstein formulou a hipótese dos quanta de luz, trabalho pelo qual seria laureado com o Prêmio Nobel de Física de 1921.
+
+O efeito fotoelétrico - a ejeção de elétrons de uma superfície metálica quando atingida por radiação eletromagnética - foraa descoberto por Heinrich Hertz em 1887 durante suas experiências constitutivas com ondas eletromagnéticas. Investigações posteriores detalhadas por Philipp Lenard (1902) revelaram características fundamentais do fenômeno que desafiavam frontalmente a eletrodinâmica clássica de Maxwell-Hertz:
+
+\begin{itemize}
+    \item \textbf{Independência da Energia em Relação à Intensidade:} A teoria ondulatória clássica prevê que a energia de uma onda eletromagnética é proporcional ao quadrado de sua amplitude (intensidade). Esperava-se que uma luz mais intensa fornecesse mais energia aos elétrons do metal, ejetando-os com maior energia cinética máxima ($K_{\max}$). Contudo, Lenard observou que a energia cinética dos fotoelétrons (medida pelo potencial de corte $V_0$, onde $e V_0 = K_{\max}$) era rigorosamente independente da intensidade da luz. O aumento da intensidade luminosa aumentava apenas a quantidade de elétrons emitidos por unidade de tempo (a corrente fotoelétrica), mas não a velocidade individual dos fotoelétrons ejetados.
+
+    \item \textbf{Existência de uma Frequência Limiar ($\nu_0$):} Pela física clássica, qualquer frequência de luz deveria ser capaz de ejetar elétrons, desde que a iluminação fosse mantida por tempo suficiente ou a intensidade fosse suficientemente alta. No entanto, os experimentos demonstraram que existia uma frequência de corte ou limiar ($\nu_0$) característica de cada metal. Se a frequência da luz incidente estivesse abaixo desse limiar ($\nu < \nu_0$), nenhum elétron era ejetado, independentemente da intensidade luminosa ou da duração da irradiação.
+
+    \item \textbf{Instantaneidade da Emissão:} A teoria ondulatória prevê que a energia de uma onda plana contínua incidente se distribuiria por uma grande área da superfície metálica. Para iluminações de baixíssima intensidade, um único elétron exigiria horas ou dias para acumular a energia necessária para escapar do metal. Experimentalmente, a emissão fotoelétrica ocorria de forma praticamente instantânea (em intervalos inferiores a $10^{-9} \text{ s}$).
+\end{itemize}
+
+Para resolver esses paradoxos, Einstein propôs uma extensão radical da hipótese quântica de Planck. Enquanto Planck considerava a quantização como uma propriedade restrita ao processo de emissão e absorção nos osciladores da parede da cavidade, Einstein postulou que a própria radiação eletromagnética se propaga pelo espaço na forma de pacotes localizados de energia — posteriormente denominados fótons por Gilbert Lewis em 1926. A energia $E$ de um fóton individual de frequência $\nu$ é dada por:
+
+$$E = h\nu$$
+
+Einstein interpretou o efeito fotoelétrico como uma colisão individual "um-para-um" entre um fóton incidente e um elétron no interior do metal. Quando um fóton atinge o metal, ele transfere integralmente a sua energia $h\nu$ a um único elétron. Uma fração dessa energia é consumida para vencer as forças de atração eletrostática do retículo cristalino metálico — a energia mínima de ligação, denominada função trabalho ($W_0$) do metal. A energia restante é convertida na energia cinética do fotoelétron ejetado. O balanço de energia é expresso pela Equação Fotoelétrica de Einstein:
+
+$$K_{\max} = h\nu - W_0$$
+
+Expressando a energia cinética máxima em termos do potencial de corte elétrico $V_0$ ($K_{\max} = e V_0$, onde $e = 1,6022 \times 10^{-19} \text{ C}$ é a carga elementar):
+
+$$e V_0 = h\nu - W_0 \implies V_0 = \left( \frac{h}{e} \right) \nu - \frac{W_0}{e}$$
+
+A frequência do limiar $\nu_0$ é obtida fazendo $K_{\max} = 0$:
+
+$$h \nu_0 = W_0 \implies \nu_0 = \frac{W_0}{h}$$
+
+A teoria de Einstein previa uma relação rigorosamente linear entre o potencial de corte $V_0$ e a frequência $\nu$, com uma inclinação universal dada pela razão $\frac{h}{e}$, independente do material metálico do cátodo. Essa previsão foi confirmada experimentalmente com extraordinária precisão por Robert Andrews Millikan em 1916. Inicialmente cético em relação à hipótese dos fótons, Millikan construiu aparatos em alto vácuo para raspar a superfície de metais alcalinos e medir o potencial de corte em função da frequência da luz, obtendo uma das medições experimentais mais precisas da constante de Planck $h$.
 
 \subsubsection{Espalhamento Compton e a Confirmação Cospuscular da Radiação}
 
+Apesar do sucesso da equação fotoelétrica de Einstein, a hipótese do fóton enfrentou forte resistência da comunidade científica nas duas primeiras décadas do século XX, pois parecia incompatível com os fenômenos bem estabelecidos de interferência e difração descritos pela teoria ondulatória de Maxwell. A confirmação definitiva do caráter corpuscular do fóton veio em 1923 com as experiências de Arthur Holly Compton sobre o espalhamento de raios X por alvos de grafite.
+
+Compton incidiu um feixe monocromático de raios X de alta frequência (linha $K_\alpha$ do molibdênio, $\lambda = 0,0709 \text{ nm}$) sobre um alvo de carbono (grafite) e mediu o comprimento de onda da radiação espalhada em diferentes ângulos $\theta$ utilizando um espectrômetro de cristal de calcita. A eletrodinâmica clássica (espalhamento Thomson) previa que os elétrons do alvo oscilariam na mesma frequência da onda incidente e reemitiriam radiação exatamente com o mesmo comprimento de onda ($\lambda' = \lambda$), independentemente do ângulo de observação $\theta$. Contudo, Compton observou experimentalmente a presença de dois picos no espectro espalhado: um pico com o comprimento de onda original não deslocado ($\lambda$) e um novo pico com um comprimento de onda deslocado para valores maiores ($\lambda' > \lambda$), cuja separação $\Delta\lambda = \lambda' - \lambda$ crescia continuamente com o aumento do ângulo de espalhamento $\theta$.
+
+Compton interpretou o fenômeno como uma colisão elástica bidimensional entre um fóton incidente de alta energia e um elétron livre (ou fracamente ligado) do alvo, inicialmente em repouso. De acordo com a teoria da relatividade restrita de Einstein, um fóton de frequência $\nu$ transporta não apenas energia $E = h\nu$, mas também um momento linear relativo $\vec{p}$ de magnitude dada por:
+
+$$p = \frac{E}{c} = \frac{h\nu}{c} = \frac{h}{\lambda}$$
+
+A derivação matemática da Fórmula do Espalhamento Compton fundamenta-se na conservação do momento linear e da energia total relativística no sistema isolado fóton-elétron:
+
+\begin{itemize}
+    \item \textbf{Conservação da Energia Relativística:} Antes da colisão, o fóton tem energia $E_\gamma = h\nu = \frac{hc}{\lambda}$ e o elétron em repouso tem energia de repouso $E_e = m_e c^2$49. Após a colisão, o fóton espalhado num ângulo $\theta$ tem energia $E_\gamma' = h\nu' = \frac{hc}{\lambda'}$ e o elétron de recuo tem energia relativística total $E_e' = \sqrt{(p_e' c)^2 + (m_e c^2)^2}$:
+    
+    $$h\nu + m_e c^2 = h\nu' + \sqrt{(p_e' c)^2 + (m_e c^2)^2}$$
+    
+    Isolando o termo do elétron e elevando ambos os lados ao quadrado:
+    
+    $$\left( (h\nu - h\nu') + m_e c^2 \right)^2 = (p_e' c)^2 + (m_e c^2)^2$$
+    
+    $$(h\nu - h\nu')^2 + 2 m_e c^2 (h\nu - h\nu') + (m_e c^2)^2 = (p_e' c)^2 + (m_e c^2)^2$$
+    
+    $$h^2 (\nu - \nu')^2 + 2 m_e c^2 h (\nu - \nu') = (p_e' c)^2 \quad \text{--- (Equação 1)}$$
+
+    \item \textbf{Conservação do Momento Linear Vetorial:}
+
+    $$\vec{p}_\gamma = \vec{p}_\gamma' + \vec{p}_e' \implies \vec{p}_e' = \vec{p}_\gamma - \vec{p}_\gamma'$$
+    
+    Calculando o quadrado do módulo do momento do elétron via produto escalar:
+    
+    $$(p_e')^2 = \vec{p}_e' \cdot \vec{p}_e' = (\vec{p}_\gamma - \vec{p}_\gamma') \cdot (\vec{p}_\gamma - \vec{p}_\gamma') = p_\gamma^2 + (p_\gamma')^2 - 2 p_\gamma p_\gamma' \cos\theta$$
+    
+    Multiplicando toda a equação por $c^2$ e lembrando que $p_\gamma c = h\nu$ e $p_\gamma' c = h\nu'$:
+    
+    $$(p_e' c)^2 = (h\nu)^2 + (h\nu')^2 - 2 (h\nu)(h\nu') \cos\theta \quad \text{--- (Equação 2)}$$
+
+    \item \textbf{Igualando as Equações 1 e 2:}
+
+        $$h^2 (\nu^2 - 2\nu\nu' + \nu'^2) + 2 m_e c^2 h (\nu - \nu') = h^2 \nu^2 + h^2 \nu'^2 - 2 h^2 \nu\nu' \cos\theta$$
+        
+        Cancelando os termos $h^2 \nu^2$ e $h^2 \nu'^2$ em ambos os lados:
+        
+        $$-2 h^2 \nu\nu' + 2 m_e c^2 h (\nu - \nu') = -2 h^2 \nu\nu' \cos\theta$$
+        
+        Dividindo toda a equação por $2 h m_e c^2 \nu \nu'$:
+        
+        $$\frac{h}{m_e c^2} (\nu - \nu') = \frac{h}{m_e c} \left( \frac{\nu - \nu'}{\nu \nu'} \right) = \frac{h}{m_e c} \left( \frac{1}{\nu'} - \frac{1}{\nu} \right)$$
+        
+        Reorganizando os termos:
+        
+        $$\frac{h}{m_e c} \left( \frac{c}{\nu'} - \frac{c}{\nu} \right) = \frac{h}{m_e c} (1 - \cos\theta)$$
+        
+        Como $\lambda = c/\nu$ e $\lambda' = c/\nu'$, obtém-se a Fórmula do Espalhamento Compton
+        
+        :$$\Delta\lambda = \lambda' - \lambda = \frac{h}{m_e c} (1 - \cos\theta)$$
+        
+        A constante que multiplica o fator angular é definida como o Comprimento de Onda de Compton do Elétron ($\lambda_C$)50:
+        
+        $$\lambda_C = \frac{h}{m_e c} \approx 2,4263 \times 10^{-12} \text{ m} = 0,0024263 \text{ nm}$$
+
+\end{itemize}
+
+A variação do comprimento de onda depende exclusivamente do ângulo de espalhamento $\theta$, sendo independente do comprimento de onda incidente $\lambda$ e da natureza da substância do alvo. O pico não deslocado ($\lambda' = \lambda$) observado nos experimentos resulta do espalhamento dos fótons por elétrons internos fortemente ligados ao núcleo atômico; nesse caso, a massa que recua é a de todo o átomo ($M \gg m_e$), tornando o deslocamento $\Delta\lambda \propto \frac{h}{M c} \approx 0$ imperceptível.
+
 \subsubsection{Aplicações Tecnológicas Modernas}
+
+A compreensão quântica da luz como pacotes de energia e momento revolucionou não apenas a física teórica, mas também impulsionou o desenvolvimento de tecnologias essenciais para a sociedade contemporânea.
+
+\begin{itemize}
+    \item \textbf{Sensores Fotoelétricos e Tubos Fotomultiplicadores:} O efeito fotoelétrico é a base de funcionamento de fotocélulas em portas automáticas, iluminação pública automatizada e detectores de fumaça. Em física de partículas e astronomia, os tubos fotomultiplicadores utilizam o efeito fotoelétrico secundário em cascata (dínodos) para multiplicar um único fóton incidente em um sinal elétrico mensurável de milhões de elétrons, permitindo a detecção de eventos raros.
+
+    \item \textbf{Dispositivos de Visão Noturna:} Sistemas de intensificação de imagem utilizam fotocátodos semicondutores de alto rendimento que convertem fótons da radiação infravermelha próxima em fotoelétrons. Esses elétrons são acelerados por altos campos elétricos através de uma placa microcanal (Microchannel Plate) e colidem com uma tela fosforescente, gerando uma imagem visível amplificada.
+
+    \item \textbf{Células Solares Fotovoltáicas:} A conversão de energia solar em eletricidade em painéis fotovoltaicos fundamenta-se no efeito fotoelétrico interno em junções $p-n$ de semicondutores (como o silício). Fótons incidentes com energia $h\nu > E_g$ (onde $E_g$ é o bandgap do semicondutor) promovem elétrons da banda de valência para a banda de condução, gerando pares elétron-lacuna que são separados pelo campo elétrico interno da junção, produzindo corrente contínua.
+
+    \item \textbf{Radiação Cherenkov:} Quando uma partícula carregada (como um elétron ultra-relativístico emitido em reatores nucleares) atravessa um meio dielétrico transparente (como a água) com uma velocidade $v$ superior à velocidade da luz naquele meio ($v > c/n$, onde $n$ é o índice de refração), ela gera uma onda de choque eletromagnética análoga ao estrondo sônico de aeronaves supersônicas. Essa radiação de cor azul brilhante característica é utilizada para monitorar a potência de reatores e na detecção de neutrinos em observatórios astrofísicos subterrâneos.
+\end{itemize}
 
 \subsection{Modelo Atômico de Bohr: postulados, quantização e espectros}
 
